@@ -1,0 +1,3648 @@
+: 1572932712:0;chsh -s $(which zsh)
+: 1572932947:0;ls
+: 1572932966:0;ZSH_THEME="agnoster"
+: 1572932974:0;export ZSH_THEME="agnoster"
+: 1572933279:0;sudo dnf install libXScrnSaver
+: 1572933350:0;sudo dnf install pipenv
+: 1572933450:0;curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.35.1/install.sh | bash
+: 1572933500:0;nvm install --lts
+: 1572933736:0;tree .
+: 1572933742:0;ll -a
+: 1572933755:0;gedit .zshrc
+: 1572934021:0;nvm
+: 1572934082:0;ssh-keygen -t rsa -b 4096 "Mohamed Moughamir (Fedora WS) <moughamir@gmail.com>"
+: 1572934094:0;ssh-keygen -t rsa -b 4096 -C "Mohamed Moughamir (Fedora WS) <moughamir@gmail.com>"
+: 1572934162:0;git config --global color.ui auto
+: 1572934246:0;git config --global user.name "Mohamed Moughamir"
+: 1572934264:0;git config --global user.email "moughamir@gmail.com"
+: 1572934374:0;+
+: 1572934383:0;sudo tee -a /etc/yum.repos.d/vscodium.repo << 'EOF'\
+[gitlab.com_paulcarroty_vscodium_repo]\
+name=gitlab.com_paulcarroty_vscodium_repo\
+baseurl=https://gitlab.com/paulcarroty/vscodium-deb-rpm-repo/raw/repos/rpms/\
+enabled=1\
+gpgcheck=1\
+repo_gpgcheck=1\
+gpgkey=https://gitlab.com/paulcarroty/vscodium-deb-rpm-repo/raw/master/pub.gpg\
+EOF\
+
+: 1572934423:0;sudo dnf install codium
+: 1572955721:0;dnf search kazam
+: 1572955873:0;cd Projects
+: 1572955878:0;mkdir awx3
+: 1572955881:0;cd awx3
+: 1572955884:0;wget https://raw.githubusercontent.com/containers/podman-compose/devel/examples/awx3/docker-compose.yml
+: 1572955925:0;docker-compose --help
+: 1572955935:0;podman-compose --help
+: 1572955953:0;podman-compose up
+: 1572956152:0;cd Projects
+: 1572956155:0;wget http://emmanuel.branlard.free.fr/work/linux/dev/SignPDF/SignPDF
+: 1572956458:0;dnf -y search byzanz
+: 1572956614:0;sudo dnf -y install byzanz
+: 1572956975:0;byzanz
+: 1572957085:0;sudo dnf -y remove byzanz
+: 1572957885:0;npm -g -i yarn
+: 1572957890:0;npm -g i yarn
+: 1572957986:0;yarn --help
+: 1572958003:0;yarn global add gulp
+: 1572958527:0;sudo dnf -y update &&sudo dnf -y install eclipse eclipse-cdt eclipse-pdt eclipse-dltk-ruby eclipse-dltk-sh eclipse-pydev eclipse-webtools-* eclipse-egit eclipse-egit-github eclipse-mylyn-* eclipse-mpc
+: 1572958858:0;cd Projects/awx3
+: 1572958861:0;less docker-compose.yml
+: 1572958943:0;ifconfig
+: 1572959007:0;podman ps
+: 1572959043:0;docker ps
+: 1572959056:0;sudo podman-composer up
+: 1572959069:0;podman-composer up
+: 1572959083:0;sudo podman-compose up
+: 1572962113:0;podman ps
+: 1572962132:0;podman-compose --help
+: 1572962143:0;podman-compose down
+: 1572962152:0;podman-compose --help
+: 1572962163:0;podman-compose build
+: 1572962169:0;podman-compose pull
+: 1572962203:0;sudo dnf -y install eclipse eclipse-cdt eclipse-pdt eclipse-dltk-ruby eclipse-dltk-sh eclipse-pydev eclipse-webtools-* eclipse-egit eclipse-egit-github eclipse-mylyn-* eclipse-mpc
+: 1572962214:0;dnf search eclipse-*
+: 1572962220:0;dnf search eclipse-
+: 1572962253:0;dnf search eclipse-web
+: 1572962308:0;sudo dnf -y install eclipse eclipse-cdt eclipse-pdt eclipse-dltk-ruby eclipse-dltk-sh eclipse-pydev eclipse-egit eclipse-egit-github eclipse-mylyn-* eclipse-mpc
+: 1572962316:0;dnf search eclipse-mylyn
+: 1572962355:0;sudo dnf -y install eclipse eclipse-cdt eclipse-pdt eclipse-dltk-ruby eclipse-dltk-sh eclipse-pydev eclipse-egit eclipse-egit-github eclipse-mpc
+: 1572962446:0;sudo dnf -y install eclipse eclipse-platform eclipse-cdt eclipse-pdt eclipse-dltk-ruby eclipse-dltk-sh eclipse-pydev eclipse-egit eclipse-egit-github eclipse-mpc
+: 1572962485:0;sudo dnf -y install eclipse eclipse-platform eclipse-cdt  eclipse-pydev eclipse-egit
+: 1572962499:0;sudo dnf -y install eclipse 
+: 1572962531:0;sudo dnf -y install eclipse-platform 
+: 1572962552:0;sudo dnf -y upgrade
+: 1572962575:0;sudo dnf -y install glassfish-el eclipse-platform 
+: 1572962613:0;dnf --help
+: 1572962691:0;sudo dnf -y install eclipse --color true
+: 1572962752:0;sudo dnf install eclipse
+: 1572962776:0;gnome-software
+: 1572964137:0;podman ps
+: 1572964144:0;podman --help
+: 1572964172:0;podman images
+: 1572964197:0;podman rmi
+: 1572964249:0;podman rmi 843e6
+: 1572964287:0;podman e0ec4d
+: 1572964299:0;podman rmi e0ec4d
+: 1572964308:0;podman rmi da86
+: 1572964316:0;podman images
+: 1572965428:0;cd Projects/hyperledger/fabric-1.4.3
+: 1572965429:0;ls
+: 1572965441:0;less README.md
+: 1572965463:0;tree .
+: 1572965561:0;ls
+: 1572965645:0;ls cmd
+: 1572965649:0;ls cmd/common
+: 1572965657:0;ls scripts
+: 1572965669:0;./scripts/bootstrap.sh
+: 1572968822:0;podman ps
+: 1572969414:0;ls
+: 1572969422:0;ls fabric-samples
+: 1572970788:0;sudo tee -a /etc/yum.repos.d/google-cloud-sdk.repo << EOM\
+[google-cloud-sdk]\
+name=Google Cloud SDK\
+baseurl=https://packages.cloud.google.com/yum/repos/cloud-sdk-el7-x86_64\
+enabled=1\
+gpgcheck=1\
+repo_gpgcheck=1\
+gpgkey=https://packages.cloud.google.com/yum/doc/yum-key.gpg\
+       https://packages.cloud.google.com/yum/doc/rpm-package-key.gpg\
+EOM
+: 1572970811:0;sudo dnf install google-cloud-sdk
+: 1572971198:0;gcloud init
+: 1572971314:0;gcloud auth list
+: 1572971330:0;gcloud config list
+: 1572971343:0;which gcloud
+: 1572971351:0;whereis gcloud
+: 1572971372:0;gcloud info
+: 1572987000:0;dnf search theme-*-dark
+: 1572987019:0;dnf search $(echo "theme-*-dark")
+: 1572987307:0;dnf search theme -y
+: 1572987493:0;dnf install flat-remix-gtk3-theme.noarch flat-remix-theme.noarch flat-remix-icon-theme.noarch
+: 1572987503:0;sudo dnf -y install flat-remix-gtk3-theme.noarch flat-remix-theme.noarch flat-remix-icon-theme.noarch
+: 1573073160:0;WebKitWebDriver --help
+: 1573074433:0;apropos compress
+: 1573074603:0;apropos --help
+: 1573074623:0;apropos firefox
+: 1573075005:0;apropos WebKitWebDriver 
+: 1573075023:0;apropos goa-daemon 
+: 1573075041:0;apropos eclipse
+: 1573075899:0;lsusb
+: 1573075985:0;lsusb | grep Lenovo
+: 1573076377:0;imagemagick
+: 1573076393:0;apropos convert
+: 1573076400:0;convert --help
+: 1573076563:0;>
+: 1573076803:0;mkdir /tmp/folars
+: 1573076819:0;cp *.jpg /tmp/folars
+: 1573076825:0;cp "*.jpg" /tmp/folars
+: 1573076840:0;cp ./*.jpg /tmp/folars
+: 1573076848:0;cp "./*.jpg" /tmp/folars
+: 1573076865:0;bash
+: 1573076912:0;cp "./*.JPG" /tmp/folars
+: 1573076920:0;cp ./*.JPG /tmp/folars
+: 1573086846:0;cd /tmp
+: 1573086852:0;cd folars
+: 1573086853:0;ls
+: 1573086864:0;mkdir small
+: 1573138891:0;yarn global add gatsby-cli
+: 1573138984:0;cd Projects
+: 1573138985:0;ls
+: 1573139004:0;mkdir Github
+: 1573139008:0;cd Github
+: 1573139030:0;gatsby new omnizya2
+: 1573139066:0;cd Projects/Github
+: 1573139075:0;gatsby new oz2
+: 1573139090:0;yarn global remove gatsby-cli
+: 1573139116:0;npm i -g gatsby-cli
+: 1573139162:0;cd
+: 1573139165:0;curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
+: 1573139601:0;cls
+: 1573139605:0;ls
+: 1573139657:0;gatsby new PhantomWrite https://github.com/LekoArts/gatsby-starter-portfolio-cara
+: 1573140084:0;cd PhantomWrite
+: 1573140086:0;ls
+: 1573140091:0;codium .
+: 1573140941:0;source $HOME/.cargo/env\
+
+: 1573140954:0;cargo --help
+: 1573140980:0;sudo dnf update -y && sudo dnf upgrade -y
+: 1573147114:0;sudo dnf upgrade -y
+: 1573147241:0;cd Projects/Github/PhantomWrite
+: 1573147255:0;gatsby --help
+: 1573147321:0;gatsby info
+: 1573147349:0;gatsby telemetry
+: 1573147362:0;gatsby telemetry disable
+: 1573147369:0;gatsby telemetry --help
+: 1573147379:0;gatsby telemetry --disable
+: 1573147387:0;gatsby --help
+: 1573147405:0;gatsby plugin --help
+: 1573147510:0;gatsby plugin docs
+: 1573147659:0;gatsby develop
+: 1573147943:0;codium ./
+: 1573151318:0;cat /proc/sys/fs/inotify/max_user_watches
+: 1573151345:0;apropos visudo
+: 1573151370:0;sudo vi /etc/sysctl.conf
+: 1573151398:0;sudo vi /etc/sysctl.d/99-sysctl.conf
+: 1573151465:0;echo fs.inotify.max_user_watches=524288 | sudo tee -a /etc/sysctl.conf && sudo sysctl -p
+: 1573217516:0;dnf search cursor
+: 1573217536:0;dnf search vlc
+: 1573217563:0;dnf search cursor-themes
+: 1573217616:0;sudo dnf install dmz-cursor-themes oxygen-cursor-themes
+: 1573218096:0;dnf search material
+: 1573218253:0;sudo dnf install materia-gtk-theme material-design-dark gnome-shell-theme-flat-remix
+: 1573218341:0;sudo dnf install flat-remix-theme
+: 1573218865:0;dnf search solarized
+: 1573219125:0;ls -a
+: 1573219152:0;ls ./.local
+: 1573219156:0;ls ./.local/share
+: 1573219195:0;cd /usr/share/themes
+: 1573219196:0;ls
+: 1573219253:0;ls Materia-compact
+: 1573219277:0;sudo mv ~/Downloads/Arc-Dark-Solarized-GTK_1.3/Arc-Dark-Solarized-GTK -r ./
+: 1573219288:0;sudo mv ~/Downloads/Arc-Dark-Solarized-GTK_1.3/Arc-Dark-Solarized-GTK  ./
+: 1573219940:0;cd ~/Downloads
+: 1573219942:0;cd themes
+: 1573219948:0;unzip *
+: 1573219959:0;unzip *.zip ./
+: 1573219962:0;unzip *.zip 
+: 1573219985:0;unzip Solarized-Dark-Blue-GTK_1.8.zip && rm Solarized-Dark-Blue-GTK_1.8.zip
+: 1573220025:0;unzip Solarized-Dark-Cyan-GTK_1.8.zip 
+: 1573220033:0;rm Solarized-Dark-Cyan-GTK_1.8.zip 
+: 1573220044:0;unzip Solarized-Dark-Green-GTK_1.8.zip
+: 1573220050:0;rm Solarized-Dark-Green-GTK_1.8.zip
+: 1573220074:0;unzip Solarized-Dark-Magenta-GTK_1.8.zip && rm Solarized-Dark-Magenta-GTK_1.8.zip
+: 1573220101:0;unzip Solarized-Dark-Orange-GTK_1.8.zip && rm Solarized-Dark-Orange-GTK_1.8.zip
+: 1573220119:0;unzip Solarized-Dark-Red-GTK_1.8.zip && rm Solarized-Dark-Red-GTK_1.8.zip
+: 1573220143:0;unzip Solarized-Dark-Violet-GTK_1.8.zip && rm Solarized-Dark-Violet-GTK_1.8.zip
+: 1573220148:0;ls
+: 1573220166:0;unzip Solarized-Material-Steel_1.8.zip && rm Solarized-Material-Steel_1.8.zip
+: 1573220171:0;ls
+: 1573220202:0;mv ./Solarized-* /usr/share/themes/
+: 1573220211:0;sudo mv ./Solarized-* /usr/share/themes/
+: 1573220220:0;cd ..
+: 1573220224:0;cd icons/
+: 1573220226:0;ls
+: 1573220249:0;unzip Solarized-Blue_1.8.zip&& rm Solarized-Blue_1.8.zip
+: 1573220263:0;unzip Solarized-Cyan_1.8.zip&& rm Solarized-Cyan_1.8.zip
+: 1573220281:0;unzip Solarized-Green_1.8.zip && rm Solarized-Green_1.8.zip
+: 1573220284:0;ll
+: 1573220304:0;unzip Solarized-Magenta_1.8.zip && rm Solarized-Magenta_1.8.zip
+: 1573220317:0;unzip Solarized-Red_1.8.zip && rm Solarized-Red_1.8.zip
+: 1573220320:0;ll
+: 1573220336:0;unzip Solarized-Steel_1.8.zip && rm Solarized-Steel_1.8.zip
+: 1573220348:0;unzip Solarized-Violet_1.8.zip && rm Solarized-Violet_1.8.zip
+: 1573220351:0;ll
+: 1573220369:0;mv ./Solarized-* /usr/share/icons/
+: 1573220372:0;sudo mv ./Solarized-* /usr/share/icons/
+: 1573221467:0;unzip B00merang-Glass-4.0.zip
+: 1573221475:0;rm B00merang-Glass-4.0.zip
+: 1573221499:0;sudo mv B00merang-Glass-4.0 /usr/share/themes
+: 1573225888:0;dnf search "rrar"
+: 1573225891:0;dnf search "rar"
+: 1573226040:0;su -
+: 1573226052:0;su 
+: 1573226077:0;1n5p3ct0r
+: 1573226102:0;sudo dnf -vy update && sudo dnf -vy upgrade
+: 1573226190:0;sudo dnf -vy upgrade
+: 1573226214:0;sudo reboot now
+: 1573226383:0;dnf search gdm | grep gdm
+: 1573226468:0;dnf search gdm
+: 1573226499:0;apropos open
+: 1573226541:0;dnf search gpg
+: 1573226589:0;dnf search chrome
+: 1573226638:0;dnf search google
+: 1573226702:0;dnf search github
+: 1573226771:0;dnf search facebook
+: 1573226813:0;dnf search gitlab
+: 1573226841:0;dnf search twitch
+: 1573226855:0;dnf search youtube
+: 1573226891:0;dnf search deno
+: 1573226924:0;dnf install orion
+: 1573226934:0;dnf search gimp
+: 1573227064:0;sudo dnf install orion gimpfx-foundry gimp-data-extra gmic-gimp gimp gimp-separate+
+: 1573227125:0;sudo dnf install orion gimpfx-foundry gmic-gimp gimp gimp-separate+
+: 1573227186:0;sudo dnf install orion gimpfx-foundry gimp-data-extras gmic-gimp gimp gimp-separate+
+: 1573227319:0;unrar
+: 1573227347:0;dnf search unrar
+: 1573251515:0;cd ..
+: 1573251522:0;cd
+: 1573251526:0;mkdir Apps
+: 1573251551:0;mv Downloads/ideaIU-2019.2.4\(1\)/idea-IU-192.7142.36 Apps 
+: 1573251556:0;cd Apps
+: 1573251557:0;ls
+: 1573251578:0;mv idea-IU-192.7142.36 ideaIU
+: 1573251580:0;ls
+: 1573251584:0;cd ideaIU
+: 1573251635:0;bin/idea.sh
+: 1573252185:0;cd ~/Apps
+: 1573252188:0;curl -fsSL https://git.laucyun.com/laucyun/jetbrains-license-server/raw/master/releases/jls-2019.3.20.tar.gz -o jls.tar.gz
+: 1573252224:0;ls
+: 1573252228:0;rm jls.tar.gz
+: 1573252242:0;wget -q https://git.laucyun.com/laucyun/jetbrains-license-server/raw/master/releases/jls-2019.3.20.tar.gz -O jls.tar.gz
+: 1573252301:0;ll
+: 1573252305:0;rm jls.tar.gz
+: 1573252344:0;mv ~/Downloads/jls.tar.gz ./
+: 1573252365:0;mv ~/Downloads/jls-2019.3.20.tar.gz ./jls.tar.gz
+: 1573252377:0;tar zxvf jls.tar.gz
+: 1573252381:0;ls
+: 1573252409:0;mkdir jls
+: 1573252420:0;mv jls-* ./jls
+: 1573252424:0;ll script
+: 1573252435:0;cat script/init_script_linux
+: 1573252446:0;mv script jls
+: 1573252473:0;jls/jls-linux-amd64
+: 1573252587:0;ls
+: 1573252589:0;cd ideaIU
+: 1573300124:0;lsusb
+: 1573304507:0;dnf search unrar
+: 1573304932:0;sudo dnf -v update 
+: 1573305108:0;sudo dnf groupupdate core
+: 1573305313:0;sudo dnf groupupdate multimedia --setop="install_weak_deps=False" --exclude=PackageKit-gstreamer-plugin
+: 1573305673:0;sudo dnf groupupdate sound-and-video
+: 1573305701:0;dnf search vlc
+: 1573305756:0;dnf search unrar
+: 1573305771:0;dnf search kazam
+: 1573305788:0;sudo dnf install unrar -y
+: 1573305811:0;sudo dnf install rpmfusion-free-release-tainted
+: 1573305850:0;sudo dnf install rpmfusion-nonfree-release-tainted
+: 1573305879:0;sudo dnf install libdvdcss
+: 1573305902:0;sudo dnf install \*-firmware
+: 1573312062:0;sudo dnf install git wget curl ruby ruby-devel zsh util-linux-user redhat-rpm-config gcc gcc-c++ make
+: 1573312789:0;git clone https://github.com/ryanoasis/nerd-fonts ~/.nerd-fonts
+: 1573313593:0;tree .
+: 1573313687:0;_cowsay Everything is Solarized Now x)
+: 1573313693:0;_cowsay "Everything is Solarized Now x)"
+: 1573313697:0;cowsay "Everything is Solarized Now x)"
+: 1573314202:0;git clone https://github.com/ryanoasis/nerd-fonts ~/.nerd-fonts
+: 1573314271:0;sudo dnf install fontawesome-fonts
+: 1573314457:0;sudo dnf install powerline vim-powerline tmux-powerline powerline-fonts
+: 1573314502:0;gedit .bashrc
+: 1573314531:0;gedit .zshrc
+: 1573314578:0;git clone https://github.com/romkatv/powerlevel10k.git ~/.oh-my-zsh/themes/powerlevel10k
+: 1573314837:0;gedit .zshrc
+: 1573314987:0;ls .oh-my-zsh/plugins
+: 1573315052:0;gedit .zshrc
+: 1573315286:0;git clone https://github.com/romkatv/powerlevel10k.git ~/.oh-my-zsh/themes/powerlevel10k
+: 1573315417:0;git clone --depth=1 https://github.com/romkatv/powerlevel10k.git $ZSH_CUSTOM/themes/powerlevel10k
+: 1573315595:0;git clone https://github.com/ryanoasis/nerd-fonts ~/.nerd-fonts
+: 1573315927:0;cd Projects/awx3/
+: 1573315929:0;ls
+: 1573315936:0;cd ../Github/PhantomWrite
+: 1573315942:0;ls
+: 1573315947:0;ll
+: 1573315951:0;clear
+: 1573315972:0;cd
+: 1573315990:0;git clone https://github.com/ryanoasis/nerd-fonts ~/.nerd-fonts
+: 1573316045:0;git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-syntax-highlighting
+: 1573316056:0;git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions
+: 1573316112:0;sudo gem install colorls
+: 1573316152:0;gedit .zshrc
+: 1573316195:0;source ~/.zshrc
+: 1573316214:0;gedit .zshrc
+: 1573316234:0;gedit .bashrc
+: 1573316246:0;source ~/.zshrc
+: 1573316261:0;source $(dirname ($gem which colorls))/tab_complete.sh
+: 1573316282:0;gem which colorls
+: 1573316297:0;dirname ($gem which colorls)
+: 1573316308:0;dirname $gem which colorls)
+: 1573316310:0;dirname $gem which colorls
+: 1573316318:0;dirname gem which colorls
+: 1573316351:0;dirname /usr/local/share/gems/gems/colorls-1.2.0/lib/colorls.rb
+: 1573316366:0;$(dirname /usr/local/share/gems/gems/colorls-1.2.0/lib/colorls.rb)
+: 1573316418:0;source /usr/local/share/gems/gems/colorls-1.2.0/lib/tab_complete.sh
+: 1573316421:0;ls
+: 1573316426:0;cd
+: 1573316429:0;ls
+: 1573316436:0;tree Notebooks
+: 1573316439:0;ll
+: 1573317183:0;p10k configure
+: 1573317347:0;git clone https://github.com/ryanoasis/nerd-fonts ~/.nerd-fonts
+: 1573317549:0;p10k configure
+: 1573317638:0;Projects/Android/CarSpeed
+: 1573317644:0;ls
+: 1573317697:0;tree .
+: 1573317702:0;ls
+: 1573317955:0;la
+: 1573318051:0;ls
+: 1573318910:0;git clone https://github.com/ryanoasis/nerd-fonts ~/.nerd-fonts
+: 1573318964:0;git clone --depth=1 https://github.com/ryanoasis/nerd-fonts ~/.nerd-fonts
+: 1573408845:0;ls .nerd-fonts
+: 1573408910:0;.nerd-fonts/install.sh
+: 1573409283:0;p10k  configure
+: 1573409961:0;sudo copr enable evana/fira-code-fonts
+: 1573409978:0;sudo dnf copr enable evana/fira-code-fonts
+: 1573410048:0;sudo dnf install fira-code-fonts
+: 1573410409:0;sudo dnf -y update
+: 1573410774:0;sudo dnf -y upgrade
+: 1573410859:0;cd Apps
+: 1573410864:0;git clone https://github.com/hzbd/kazam.git
+: 1573410910:0;cd kazam
+: 1573410917:0;codium .
+: 1573410921:0;codium ./
+: 1573410994:0;python --version
+: 1573411009:0;python setup.py install
+: 1573411040:0;ls
+: 1573411051:0;ls bin
+: 1573411057:0;ls kazam
+: 1573411067:0;./bin/kazam
+: 1573411087:0;python ./kazam/app.py
+: 1573411269:0;sudo dnf install python3-distutils-extra-2.39-11.fc31.noarch python3-dbus
+: 1573411356:0;python setup.py install
+: 1573411372:0;ls
+: 1573411382:0;ls build
+: 1573411491:0;cd ..
+: 1573411495:0;rm kazam -rf
+: 1573411646:0;dnf search recordMyDesktop
+: 1573411715:0;dnf search fros
+: 1573411766:0;sudo dnf install fros
+: 1573411797:0;fros --help
+: 1573411817:0;sudo dnf install fros-recordmydesktop
+: 1573411893:0;fros
+: 1573411907:0;fros --help
+: 1573411915:0;fros -h
+: 1573411918:0;fros
+: 1573412693:0;ls
+: 1573413278:0;cd Projects
+: 1573413279:0;ls
+: 1573413286:0;tree hyperledger
+: 1573413292:0;ls hyperledger
+: 1573413300:0;ls hyperledger/argon
+: 1573413310:0;rm hyperledger -r
+: 1573413313:0;rm hyperledger -rf
+: 1573413329:0;mkdir hyperledger && cd hyperledger
+: 1573413332:0;curl -sSL http://bit.ly/2ysbOFE | bash -s
+: 1573415973:0;ls
+: 1573416257:0;ls fabric-samples
+: 1573416263:0;cd fabric-samples
+: 1573416265:0;ls
+: 1573416309:0;ls bin
+: 1573416408:0;cwd
+: 1573416412:0;pwd
+: 1573416432:0;ech o $(pwd)
+: 1573416449:0;echo $(pwd)
+: 1573416459:0;echo $(pwd)/bin
+: 1573416463:0;ls bin
+: 1573416548:0;echo $(pwd)/bin:$PATH
+: 1573416561:0;echo PATH=$(pwd)/bin:$PATH
+: 1573416569:0;export echo PATH=$(pwd)/bin:$PATH
+: 1573416592:0;ls
+: 1573416663:0;export "echo PATH=$(pwd)/fabric-samples/bin:$PATH" > ../initws.sh
+: 1573416684:0;echo "export PATH=$(pwd)/fabric-samples/bin:$PATH" > ../initws.sh
+: 1573416687:0;cd ..
+: 1573416694:0;vi ./initws.sh
+: 1573416774:0;chmod a+x initws.sh
+: 1573416778:0;./initws.sh
+: 1573416793:0;configtxgen --help
+: 1573417889:0;docker ps
+: 1573417910:0;docker image
+: 1573417916:0;docker images
+: 1573417995:0;cd fabric-samples/fabcar
+: 1573417997:0;ls
+: 1573418017:0;./startFabric.sh javascript
+: 1573418066:0;ls
+: 1573418076:0;ls javascript
+: 1573430717:0;cd Projects/hyperledger/
+: 1573430724:0;./initws.sh
+: 1573430734:0;cd fabric-samples/fabcar
+: 1573430768:0;ls
+: 1573430782:0;cd ..
+: 1573430789:0;codium ./
+: 1573430825:0;alias
+: 1573430920:0;ls
+: 1573430948:0;ping google.com
+: 1573430970:0;arp -a
+: 1573431012:0;whereis podman-compose
+: 1573431187:0;telnet 192.168.1.1
+: 1573431290:0;ln /usr/local/bin/podman-compose /usr/local/bin/docker-compose
+: 1573431296:0;sudo ln /usr/local/bin/podman-compose /usr/local/bin/docker-compose
+: 1573431309:0;docker-compose --help
+: 1573431312:0;ls
+: 1573431332:0;cd fabcar
+: 1573431336:0;tree .
+: 1573431341:0;./startFabric.sh javascript
+: 1573431435:0;cd
+: 1573431438:0;telnet 192.168.1.1
+: 1573431618:0;telnet 192.168.1.1:20
+: 1573431621:0;telnet 192.168.1.1:80
+: 1573431626:0;telnet 192.168.1.1
+: 1573431911:0;ssh 192.168.1.1
+: 1573431915:0;ssh 192.168.1.1:80
+: 1573431918:0;ssh 192.168.1.1:8080
+: 1573431921:0;arp -a
+: 1573431937:0;telnet 192.168.1.1
+: 1573432419:0;cd Projects
+: 1573432420:0;ll
+: 1573432446:0;mkdir TEO
+: 1573432449:0;cd TEO
+: 1573432459:0;wget https://raw.githubusercontent.com/woocommerce/woocommerce/master/sample-data/sample_products.csv
+: 1573433766:0;mv ~/Downloads/wetransfer-f925cc.zip ./
+: 1573433774:0;unzip wetransfer-f925cc.zip
+: 1573433778:0;ls
+: 1573433790:0;p10k  configure
+: 1573433902:0;unzip Photo\ Car\ 600x400.zip
+: 1573433909:0;rm Photo\ Car\ 600x400.zip
+: 1573435197:0;ping google.com
+: 1573435480:0;./startFabric.sh javascript
+: 1573435748:0;ls
+: 1573435756:0;rm wetransfer-f925cc.zip
+: 1573436413:0;ls Photo\ Car\ 600x400
+: 1573436661:0;ping google.com
+: 1573441211:0;lsusb
+: 1573442167:0;ls
+: 1573442257:0;cd Projects/hyperledger/fabric-samples/fabcar
+: 1573442260:0;ll
+: 1573442279:0;...
+: 1573442283:0;./initws.sh
+: 1573442290:0;cd fabric-samples/fabcar
+: 1573442304:0;./startFabric.sh javascript
+: 1573469387:0;ifconfig
+: 1573469398:0;docker images
+: 1573469410:0;./startFabric.sh javascript
+: 1573469563:0;./startFabric.sh --help
+: 1573469573:0;./startFabric.sh
+: 1573469696:0;docker ps
+: 1573469717:0;docker stop 2ae1ea62fcf3
+: 1573469721:0;docker ps
+: 1573469732:0;./startFabric.sh javascript
+: 1573469816:0;cd ..
+: 1573469819:0;ll
+: 1573469824:0;cd first-network
+: 1573469825:0;ll
+: 1573469843:0;./byfn.sh --help
+: 1573469853:0;ll
+: 1573469859:0;cat README.md
+: 1573469873:0;./byfn.sh
+: 1573469890:0;./byfn.sh generate
+: 1573469905:0;./byfn.sh
+: 1573469910:0;./byfn.sh up
+: 1573470259:0;ls
+: 1573470268:0;ls scripts
+: 1573470285:0;..
+: 1573470287:0;ll
+: 1573470298:0;ll bin
+: 1573470307:0;..
+: 1573470310:0;ll
+: 1573470315:0;cd fabric-samples
+: 1573470317:0;ll
+: 1573470334:0;cd fabcar
+: 1573471814:0;sudo dnf update
+: 1573472059:0;sudo systemctl daemon-reload
+: 1573476742:0;lsusb
+: 1573480711:0;cd Projects/hyperledger/
+: 1573480714:0;./initws.sh
+: 1573480727:0;cd fabric-samples/first-network
+: 1573480973:0;./byfn.sh generate
+: 1573481198:0;./byfn.sh up
+: 1573481359:0;	docker ps
+: 1573481376:0;sudo ./byfn.sh up
+: 1573481396:0;sudo ./byfn.sh up -l node
+: 1573580959:0;podman images
+: 1573580990:0;podman rmi --help
+: 1573581000:0;podman rmi -a
+: 1573581011:0;podman images
+: 1573581021:0;podman rmi -a -f
+: 1573581090:0;pj
+: 1573581106:0;Projects/hyperledger
+: 1573581108:0;ls
+: 1573581184:0;./initws.sh
+: 1573581188:0;cd fabric-samples
+: 1573581190:0;ls
+: 1573581501:0;cd ~/Projects
+: 1573581505:0;ll
+: 1573581518:0;ll Github
+: 1573581525:0;cd Github
+: 1573581556:0;mkdir omnizya
+: 1573581558:0;cd omnizya
+: 1573581609:0;gatsby new blog https://github.com/gatsbyjs/gatsby-starter-hello-world
+: 1573581637:0;lpf update
+: 1573581708:0;lpf --help
+: 1573581937:0;cd blog
+: 1573581940:0;ll
+: 1573581949:0;ll src
+: 1573581954:0;ll src/pages
+: 1573582090:0;alias
+: 1573582143:0;alias | yarn
+: 1573582150:0;alias | grep yarn
+: 1573582171:0;yga prettier
+: 1573582328:0;codium --install-extension esbenp.prettier-vscode
+: 1573582390:0;yga standard
+: 1573583050:0;dnf search seahorse
+: 1573583216:0;dnf list installed | grep seahorse
+: 1573583261:0;sudo dnf -y install seahorse-nautilus
+: 1573583811:0;dnf search heroku
+: 1573583839:0;cd ~
+: 1573583851:0;cd ~/Projects
+: 1573583853:0;ll
+: 1573583859:0;cd ..
+: 1573583863:0;ll
+: 1573583867:0;ls
+: 1573583879:0;cd Projects
+: 1573583884:0;cd Github
+: 1573583885:0;ls
+: 1573583891:0;mkdir hasura
+: 1573583894:0;cd hasura
+: 1573583899:0;wget https://raw.githubusercontent.com/hasura/graphql-engine/master/install-manifests/docker-compose/docker-compose.yaml
+: 1573583911:0;docker-compose up -d
+: 1573583925:0;ls
+: 1573583931:0;podman ps
+: 1573583935:0;podman images
+: 1573583945:0;podman rmi -a
+: 1573583951:0;podman rmi -a -f
+: 1573583956:0;podman containers
+: 1573583963:0;podman --help
+: 1573583974:0;podman container
+: 1573583979:0;podman container --help
+: 1573583985:0;podman container list
+: 1573583999:0;podman container cleanup
+: 1573584013:0;podman images
+: 1573584018:0;podman images --help
+: 1573584023:0;podman images -a
+: 1573584035:0;podman rmi da86
+: 1573584047:0;podman image --help
+: 1573584065:0;podman images prune
+: 1573584068:0;podman images 
+: 1573584080:0;podman rmi --help
+: 1573584101:0;podman rmi --force  da86
+: 1573584109:0;sudo podman rmi --force  da86
+: 1573584126:0;sudo podman rmi -a -f
+: 1573584143:0;sudo podman container list
+: 1573584149:0;sudo podman container --help
+: 1573584157:0;sudo podman container stop
+: 1573584161:0;sudo podman container stop --help
+: 1573584166:0;sudo podman container stop -a
+: 1573584178:0;sudo podman container --help
+: 1573584185:0;sudo podman container list
+: 1573584187:0;sudo podman container list -a
+: 1573584206:0;sudo podman container rm 89b21
+: 1573584218:0;sudo podman container rm -a
+: 1573584228:0;sudo podman container rm 6f83e99
+: 1573584233:0;sudo podman container rm 6f83e99 -f
+: 1573584246:0;sudo podman container rm 6f83e99 89b215 -f
+: 1573584259:0;sudo podman container rm -a -f
+: 1573584272:0;sudo podman images
+: 1573584278:0;sudo podman rmi -a -f
+: 1573584371:0;podman rmi -fa
+: 1573584378:0;podman --help
+: 1573584403:0;podman kill -a
+: 1573584410:0;podman kill -af
+: 1573584416:0;podman kill -f -a
+: 1573584421:0;sudo podman kill -a
+: 1573584442:0;sudo podman ps
+: 1573584446:0;sudo podman stop -a
+: 1573584456:0;sudo podman container rm -a -f
+: 1573584459:0;sudo podman stop -a
+: 1573584466:0;sudo podman kill -a
+: 1573584494:0;sudo podman container
+: 1573584499:0;sudo podman container --help
+: 1573584503:0;sudo podman container list
+: 1573584508:0;sudo podman container list -a
+: 1573584521:0;sudo podman container unmount -a
+: 1573584529:0;sudo podman container rm -a
+: 1573584558:0;sudo podman container --help
+: 1573584572:0;sudo podman container cleanup --help
+: 1573584580:0;sudo podman container cleanup -a -rm
+: 1573584585:0;sudo podman container cleanup -a --rm
+: 1573584597:0;sudo podman container cleanup -a
+: 1573584602:0;sudo podman container cleanup -a -rm
+: 1573584605:0;sudo podman container cleanup -a --rm
+: 1573584613:0;sudo podman images list
+: 1573584616:0;sudo podman images list -a
+: 1573584621:0;sudo podman image -a
+: 1573584628:0;sudo podman image --help
+: 1573584638:0;sudo podman image prune -a
+: 1573584652:0;sudo podman images --help
+: 1573584659:0;sudo podman images -a
+: 1573584666:0;sudo podman images --help*
+: 1573584667:0;sudo podman images --help
+: 1573584695:0;sudo podman imager --help
+: 1573584712:0;sudo podman image --help
+: 1573584721:0;sudo podman image rm da86e6ba6ca1
+: 1573584725:0;sudo podman image rm da86e6ba6ca1 -a
+: 1573584737:0;sudo podman image rm -a da86e6ba6ca1
+: 1573584745:0;sudo podman image rm -f da86e6ba6ca1
+: 1573584759:0;sudo podman pod
+: 1573584762:0;sudo podman pod --help
+: 1573584777:0;sudo podman --help
+: 1573584792:0;sudo podman pod
+: 1573584803:0;sudo podman pod --help
+: 1573584808:0;sudo podman pod rm
+: 1573584810:0;sudo podman pod rm -a
+: 1573584822:0;sudo podman image rm da86e6ba6ca1
+: 1573584833:0;sudo podman container cleanup -a --rm
+: 1573584843:0;sudo podman container list
+: 1573584845:0;sudo podman container list -a
+: 1573584851:0;sudo podman image list -a
+: 1573584854:0;sudo podman images list -a
+: 1573584859:0;sudo podman pod list -a
+: 1573584861:0;sudo podman pod list 
+: 1573584877:0;vim ./docker-compose.yaml
+: 1573584949:0;docker-compose up -d
+: 1573584974:0;podman pod
+: 1573584982:0;podman pod --help
+: 1573584991:0;podman pod exists
+: 1573584999:0;podman pod exists hasura
+: 1573585006:0;podman pod rm -a
+: 1573585018:0;podman container rm -a
+: 1573585026:0;podman image rm -a
+: 1573585048:0;podman pod ps
+: 1573585052:0;podman pod --help
+: 1573585055:0;podman pod ps
+: 1573585062:0;podman pod rm e65310
+: 1573585067:0;podman pod ps
+: 1573585078:0;podman pod stats
+: 1573585091:0;podman pod --help
+: 1573585099:0;podman pod ps
+: 1573585102:0;sudo podman pod ps
+: 1573585109:0;podman container
+: 1573585114:0;podman container --help
+: 1573585119:0;podman container list
+: 1573585126:0;podman image list
+: 1573585135:0;podman image rm da68
+: 1573585139:0;podman image rm da86
+: 1573585143:0;podman image list
+: 1573585148:0;podman container list
+: 1573585162:0;podman container list -a
+: 1573585169:0;podman image list -a
+: 1573585174:0;podman images list -a
+: 1573585306:0;docker-compose up --help
+: 1573585320:0;docker-compose up -d
+: 1573585358:0;podman pod ps
+: 1573585365:0;docker-compose up 
+: 1573585374:0;podman pod rm hasura
+: 1573585404:0;docker-compose  --help
+: 1573585465:0;docker-compose -t 1podfw -f ./docker-compose.yaml up
+: 1573585473:0;podman ps
+: 1573585476:0;podman pod
+: 1573585479:0;podman pod ps
+: 1573585484:0;podman pod -help
+: 1573585495:0;podman pod restart
+: 1573585499:0;podman pod restart hasura
+: 1573585507:0;podman pod ps
+: 1573585536:0;podman pod stats hasura
+: 1573585545:0;podman pod rm hasura
+: 1573585558:0;..
+: 1573585563:0;cd hyperledger
+: 1573585566:0;./initws.sh
+: 1573585573:0;cd fabric-samples/fabcar/
+: 1573585584:0;git status
+: 1573585594:0;git log
+: 1573585604:0;git reset
+: 1573585607:0;git status
+: 1573585614:0;git reset --hard
+: 1573585619:0;git status
+: 1573585625:0;git log
+: 1573585632:0;git fech
+: 1573585634:0;git fetch
+: 1573585642:0;git pull
+: 1573585648:0;git remote
+: 1573585663:0;git fetch --help
+: 1573585671:0;git fetch --all
+: 1573585676:0;git pull --all
+: 1573585689:0;git branch
+: 1573585704:0;git checkout master
+: 1573585710:0;git fetch --all
+: 1573585714:0;git pull
+: 1573585719:0;ls
+: 1573585722:0;git log
+: 1573585734:0;./startFabric.sh javascript 
+: 1573585814:0;alias | grep cd
+: 1573585832:0;alias
+: 1573585868:0;cd ~/Projects/TEO
+: 1573585869:0;ls
+: 1573585876:0;mkdir site
+: 1573585879:0;cd site
+: 1573585903:0;vim docker-compose.yml
+: 1573586004:0;gedit docker-compose.yml
+: 1573586577:0;cd ..
+: 1573586580:0;git status
+: 1573586587:0;git log
+: 1573586592:0;git branch
+: 1573586600:0;git log
+: 1573586623:0;git reset --heard 33f349a5f56cab22a0f8c530d80afeb348755621
+: 1573586631:0;git reset --hard 33f349a5f56cab22a0f8c530d80afeb348755621
+: 1573586635:0;git status
+: 1573586644:0;git remote -v
+: 1573586654:0;cd ..
+: 1573586659:0;rm fabric-samples -rf
+: 1573586677:0;docker-compose --help
+: 1573586690:0;podman pod
+: 1573586692:0;podman pod ps
+: 1573586699:0;podman images 
+: 1573586707:0;podman rmi -a
+: 1573586722:0;podman container 
+: 1573586726:0;podman container --help
+: 1573586729:0;podman container list
+: 1573586731:0;podman container list -a
+: 1573586740:0;docker-compose up -d
+: 1573586799:0;podman pod ps
+: 1573586804:0;podman pod rm site
+: 1573586819:0;podman pod --help
+: 1573586834:0;which docker-compose
+: 1573586847:0;gedit /usr/local/bin/docker-compose
+: 1573586872:0;which podman-compose
+: 1573586881:0;gedit /usr/local/bin/podman-compose
+: 1573586898:0;podman-compose up -d
+: 1573586941:0;dnf list installed | grep pod
+: 1573587005:0;sudo dnf remove podman podman-docker
+: 1573587125:0;pip --help
+: 1573587143:0;sudo dnf -y install dnf-plugins-core
+: 1573587157:0;pip list
+: 1573587180:0;pip uninstall podman-compose
+: 1573587198:0;sudo dnf config-manager \\
+    --add-repo \\
+    https://download.docker.com/linux/fedora/docker-ce.repo
+: 1573587210:0;sudo pip uninstall podman-compose
+: 1573587232:0;sudo rm /usr/local/bin/docker-compose
+: 1573587260:0;sudo dnf install docker-ce docker-ce-cli containerd.io\
+
+: 1573587644:0;sudo curl -L "https://github.com/docker/compose/releases/download/1.24.1/docker-compose-$(uname -s)-$(uname -m)" -o /usr/local/bin/docker-compose
+: 1573587701:0;sudo chmod +x /usr/local/bin/docker-compose
+: 1573587727:0;$ sudo systemctl start docker
+: 1573587735:0;sudo systemctl start docker
+: 1573587785:0;docker-compose --version
+: 1573587851:0;docker-compose --help
+: 1573587886:0;docker-compose up -t teocarstack  -d
+: 1573587898:0;docker --help
+: 1573587946:0;sudo ln -s /usr/local/bin/docker-compose /usr/bin/docker-compose
+: 1573587952:0;docker-compose up -t teocarstack  -d
+: 1573588041:0;docker info
+: 1573588050:0;sudo docker info
+: 1573588095:0;sudo systemctl status docker
+: 1573588130:0;sudo usermod -aG docker eisenulfr
+: 1573588180:0;export DOCKER_HOST=127.0.0.1\
+
+: 1573588183:0;docker-compose up -t teocarstack  -d
+: 1573588547:0;ll
+: 1573588571:0;cd Projects/TEO/site
+: 1573588577:0;sudo systemctl status docker
+: 1573588595:0;sudo systemctl start docker
+: 1573588604:0;docker-compose up -t teocarstack -d
+: 1573588708:0;docker info
+: 1573588713:0;sudo docker info
+: 1573588734:0;sudo docker-compose up -t teocarstack -d
+: 1573588747:0;sudo docker-compose up  -d
+: 1573588933:0;echo $USER
+: 1573588945:0;sudo groupadd docker
+: 1573588964:0;sudo usermod -aG docker $USER
+: 1573589000:0;newgrp docker
+: 1573589010:0;...
+: 1573589014:0;mkdir docker-test
+: 1573589017:0;cd docker-test
+: 1573589023:0;docker run hello-world
+: 1573589044:0;docker-compose up  -d
+: 1573589054:0;sudo docker-compose up  -d
+: 1573589085:0;sudo chown "$USER":"$USER" /home/"$USER"/.docker -R
+: 1573589106:0;mkdir ~/.docker
+: 1573589107:0;sudo chown "$USER":"$USER" /home/"$USER"/.docker -R
+: 1573589119:0;sudo chmod g+rwx "$HOME/.docker" -R
+: 1573589130:0;docker run hello-world
+: 1573589162:0;sudo systemctl disable docker
+: 1573589173:0;sudo systemctl start docker
+: 1573589178:0;docker run hello-world
+: 1573589185:0;sudo docker run hello-world
+: 1573589593:0;docker run hello-world
+: 1573589615:0;sudo service start docker
+: 1573589639:0;sudo service docker start
+: 1573589653:0;docker run hello-world
+: 1573589689:0;sudo docker run hello-world
+: 1573589727:0;sudo dnf -y update
+: 1573589891:0;netstat
+: 1573589925:0;netstat | grep docker
+: 1573589968:0;netstat -lntp | grep dockerd
+: 1573589976:0;netstat -lntp
+: 1573589980:0;sudo netstat -lntp
+: 1573590009:0;sudo systemctl daemon-reload\
+
+: 1573590013:0;sudo netstat -lntp
+: 1573590039:0;sudo systemctl start docker
+: 1573590042:0;sudo netstat -lntp
+: 1573590079:0;env | grep DOCKER_HOST
+: 1573590084:0;sudo env | grep DOCKER_HOST
+: 1573590090:0;sudo env
+: 1573590146:0;sudo systemctl status docker
+: 1573590170:0;sudo systemctl stop docker
+: 1573590171:0;sudo systemctl status docker
+: 1573590287:0;sudo dnf install docker-ce docker-ce-cli containerd.io
+: 1573590332:0;sudo systemctl start docker
+: 1573590345:0;sudo docker run hello-world
+: 1573590442:0;sudo dnf remove docker-ce
+: 1573590476:0;sudo dnf remove docker-ce docker-ce-cli containerd.io
+: 1573590510:0;sudo rm -rf /var/lib/docker 
+: 1573590526:0;sudo rm -rf /var/lib/docker-engine
+: 1573590538:0;sudo dnf install docker-ce docker-ce-cli containerd.io
+: 1573590703:0;sudo systemctl start docker\
+
+: 1573590714:0;sudo docker run hello-world
+: 1573590850:0;sudo systemctl status containerd
+: 1573590862:0;sudo systemctl stop containerd
+: 1573590864:0;sudo docker run hello-world
+: 1573590877:0;sudo systemctl start dockerd
+: 1573590881:0;sudo systemctl start docker
+: 1573590887:0;sudo docker run hello-world
+: 1573590973:0;ls /etc/systemd/
+: 1573590995:0;groups
+: 1573591002:0;groups --help
+: 1573591024:0;ls /etc/systemd/system/
+: 1573591075:0;ls /etc/systemd/
+: 1573591079:0;ls /etc/systemd/user
+: 1573591085:0;ls /etc/systemd/network
+: 1573591106:0;systemctl cat docker
+: 1573591183:0;whereis docker
+: 1573591202:0;cat /etc/systemd/system/docker.service.d/mount_flags.conf
+: 1573591258:0;sudo dnf remove docker-ce docker-ce-cli containerd.io
+: 1573591300:0;sudo groupdel docker
+: 1573591418:0;sudo dnf clean
+: 1573591424:0;sudo dnf --help
+: 1573591438:0;sudo dnf autoremove
+: 1573595934:0;whereis docker
+: 1573595942:0;rm .docker -rf
+: 1573595961:0;sudo rm -rf /var/lib/docker* 
+: 1573595976:0;sudo dnf clean
+: 1573595988:0;ls .oh-my-zsh
+: 1573596007:0;ls .oh-my-zsh/themes
+: 1573596032:0;ls .oh-my-zsh/custom/themes/powerlevel10k
+: 1573596047:0;codium .oh-my-zsh/custom/themes/
+: 1573596074:0;ls .oh-my-zsh/custom/plugins
+: 1573596088:0;ls .oh-my-zsh/plugins/
+: 1573596520:0;codium .oh-my-zsh/plugins/
+: 1573596588:0;codium .zshrc
+: 1573596608:0;time git branch
+: 1573596868:0;dnf search dash
+: 1573596946:0;sudo dnf install docker-ce docker-ce-cli containerd.io
+: 1573597752:0;ping google.com
+: 1573597765:0;source .zshrc
+: 1573597780:0;ping google.com
+: 1573597793:0;sudo dnf install docker-ce docker-ce-cli containerd.io
+: 1573598127:0;google enable keyboard special keys on linux
+: 1573598311:0;lsusb
+: 1573598371:0;cat /sys
+: 1573598376:0;ls /sys
+: 1573598386:0;ls /sys/devices
+: 1573598397:0;ls /sys/class
+: 1573598447:0;ls /dev/input
+: 1573598489:0;acpi_listen
+: 1573598500:0;xev
+: 1573598634:0;sudo dnf install docker-ce docker-ce-cli containerd.io
+: 1573600055:0;sudo systemctl start docker
+: 1573600113:0;pj docket-test
+: 1573600116:0;pj
+: 1573600122:0;pj docker-test
+: 1573600153:0;sudo docker run hello-world
+: 1573600253:0;ping google.com
+: 1573600495:0;sudo docker run hello-world
+: 1573601049:0;dnf search calmav
+: 1573601704:0;sudo docker run hello-world
+: 1573601746:0;google ERRO[0003] error waiting for container: context canceled \
+
+: 1573601751:0;google "ERRO[0003] error waiting for container: context canceled "\
+
+: 1573601778:0;docker version
+: 1573601899:0;sudo dnf remove docker-ce docker-ce-cli containerd.io
+: 1573602092:0;sudo dnf install podman-
+: 1573602096:0;sudo dnf install podman
+: 1573602488:0;sudo curl -L "https://github.com/docker/compose/releases/download/1.24.1/docker-compose-$(uname -s)-$(uname -m)" -o /usr/local/bin/docker-compose
+: 1573602536:0;sudo chmod +x /usr/local/bin/docker-compose
+: 1573602547:0;cd ..
+: 1573602548:0;ll
+: 1573602559:0;cd TEO/site
+: 1573602571:0;docker-compose up  -d
+: 1573602673:0;sudo dnf install podman-docker
+: 1573602788:0;podman --help
+: 1573603076:0;sudo pip3 install https://github.com/containers/podman-compose/archive/devel.tar.gz\
+
+: 1573603122:0;sudo rm /usr/local/bin/docker-compose
+: 1573603132:0;whereis podman-compose
+: 1573603159:0;sudo ln -s /usr/local/bin/podman-compose /usr/bin/docker-compose
+: 1573603169:0;sudo rm /usr/bin/docker-compose
+: 1573603171:0;sudo ln -s /usr/local/bin/podman-compose /usr/bin/docker-compose
+: 1573603178:0;docker-compose --help
+: 1573603190:0;docker-compose up -d
+: 1573603523:0;podman ps
+: 1573603570:0;cd ..
+: 1573603571:0;ls
+: 1573603611:0;docker-compose down
+: 1573603621:0;cd site/
+: 1573603624:0;docker-compose down
+: 1573603635:0;cd ..
+: 1573603637:0;ls
+: 1573603647:0;mkdir brands
+: 1573603649:0;cd brands
+: 1573603659:0;wget https://www.carlogos.org/logo/Renault-logo-2015-2048x2048.png
+: 1573603735:0;wget https://www.carlogos.org/logo/Citroen-logo-2009-2048x2048.png
+: 1573603790:0;wget https://www.carlogos.org/logo/Dacia-logo-2008-1920x1080.png
+: 1573603904:0;wget https://www.carlogos.org/logo/Volkswagen-logo-2015-1920x1080.png
+: 1573604143:0;wget https://www.carlogos.org/logo/Jeep-logo-3D-2560x1440.png
+: 1573604178:0;wget https://www.carlogos.org/logo/Land-Rover-logo-2011-640x335.jpg
+: 1573604274:0;rm Land-Rover-logo-2011-640x335.jpg
+: 1573604278:0;wget https://www.carlogos.org/logo/Land-Rover-logo-2011-1920x1080.png
+: 1573604542:0;cd ..
+: 1573604546:0;cd ../hyperledger
+: 1573604548:0;ls
+: 1573606676:0;cd ../TEO/brands
+: 1573606680:0;wget https://www.carlogos.org/logo/Hyundai-logo-silver-2560x1440.png
+: 1573613230:0;go --help
+: 1573613265:0;sudo dnf install golang
+: 1573613827:0;ls
+: 1573613863:0;echo 'export GOPATH=$HOME/go' >> $HOME/.bashrc
+: 1573613869:0;echo 'export GOPATH=$HOME/go' >> $HOME/.zshrc
+: 1573613877:0;source .zshrc
+: 1573613903:0;go env GOPATH
+: 1573613922:0;mkdir -p $HOME/go/src/hello
+: 1573613930:0;cd $HOME/go/src/hello
+: 1573613939:0;touch hello.go
+: 1573613951:0;codium hello.go
+: 1573614234:0;go run hello.go
+: 1573614284:0;cd
+: 1573614299:0;sudo dnf install rust cargo
+: 1573614811:0;echo 'export PATH=$PATH:$GOPATH/bin' >> $HOME/.zshrc
+: 1573614816:0;echo 'export PATH=$PATH:$GOPATH/bin' >> $HOME/.bashrc
+: 1573614879:0;cd Projects
+: 1573614882:0;mkdir rust
+: 1573614884:0;cd rust
+: 1573614894:0;cargo new hello_rust
+: 1573614930:0;tree .
+: 1573614958:0;vim hello_rust/Cargo.toml
+: 1573614983:0;vim hello_rust/src/main.rs
+: 1573615033:0;cd hello_rust
+: 1573615039:0;cargo run
+: 1573615083:0;cargo install rustfmt
+: 1573615140:0;echo 'export PATH=$PATH:$HOME/.cargo/bin' >> $HOME/.bashrc
+: 1573615147:0;echo 'export PATH=$PATH:$HOME/.cargo/bin' >> $HOME/.zshrc
+: 1573615268:0;cd ../../hyperledger
+: 1573615275:0;curl -sSL http://bit.ly/2ysbOFE | bash -s
+: 1573616183:0;ll
+: 1573654748:0;curl -sSL http://bit.ly/2ysbOFE | bash -s
+: 1573655044:0;ls
+: 1573655053:0;ls fabric-samples
+: 1573655065:0;rm fabric-samples -rf
+: 1573655209:0;ls
+: 1573656413:0;git clone https://github.com/hyperledger/fabric-samples.git
+: 1573656511:0;ls fabric-samples/scripts
+: 1573656515:0;ls fabric-samples
+: 1573656562:0;ls fabric-samples/scripts
+: 1573656701:0;curl -sS https://raw.githubusercontent.com/hyperledger/fabric/master/scripts/bootstrap.sh -o ./fabric-samples/scripts/bootstrap.sh
+: 1573656717:0;chmod +x fabric-samples/scripts/bootstrap.sh
+: 1573656789:0;codium fabric-samples/scripts/bootstrap.sh
+: 1573656919:0;fabric-samples/scripts/bootstrap.sh -s
+: 1573656933:0;ls
+: 1573656940:0;ls bin
+: 1573656947:0;fabric-samples/scripts/bootstrap.sh -s
+: 1573658424:0;cd
+: 1573658437:0;cat .ssh/id_rsa.pub
+: 1573658471:0;cat .gnupg
+: 1573658564:0;ls
+: 1573658595:0;gpg --list-keys
+: 1573658652:0;gpg --output revoke.asc --gen-revoke moughamir@gmail.com
+: 1573658711:0;gpg --armor --output public-key.gpg --export moughamir@gmail.com
+: 1573658713:0;ls
+: 1573658723:0;mv public-key.gpg Public
+: 1573658731:0;cat Public/public-key.gpg
+: 1573658761:0;gpg --list-keys
+: 1573658928:0;cd Projects/hyperledger
+: 1573658932:0;codium fabric-samples/scripts/bootstrap.sh
+: 1573659515:0;codium --install-extension IBMBlockchain.ibm-blockchain-platform
+: 1573662475:0;ping google.com
+: 1573669151:0;codium --install-extension IBMBlockchain.ibm-blockchain-platform
+: 1573669203:0;alias | grep dnf
+: 1573669211:0;dnfs empathy
+: 1573669247:0;pj hyperledger
+: 1573669254:0;codium
+: 1573669264:0;dnfs facebook
+: 1573669305:0;dnfs bitlbee
+: 1573669515:0;dnfs pidgin
+: 1573669558:0;alias | grep dnf
+: 1573669562:0;dnfgl
+: 1573669632:0;fabric-samples/scripts/bootstrap.sh -s
+: 1573669940:0;dnfgi Development and Creative Workstation
+: 1573670369:0;dnfi pidgin
+: 1573670616:0;node -v
+: 1573670645:0;nvm ls
+: 1573670658:0;nvm use v8.16.2
+: 1573670675:0;nvm -v
+: 1573670682:0;node -v
+: 1573670685:0;codium .
+: 1573670767:0;dnfs facebook
+: 1573670877:0;dnfi purple-facebook  gnome-shell-extension-pidgin purple-plugin_pack-pidgin
+: 1573670983:0;dnfgi "Development and Creative Workstation"
+: 1573671931:0;dnfi docker
+: 1573671985:0;sudo dnf remove podman-docker
+: 1573672008:0;whereis docker-compose
+: 1573672020:0;rm /usr/bin/docker-compose
+: 1573672025:0;sudo rm /usr/bin/docker-compose
+: 1573672030:0;dnfi docker
+: 1573672158:0;sudo systemctl start docker
+: 1573672173:0;docker --version
+: 1573672198:0;sudo dnf install -y sen
+: 1573672256:0;systemctl is-active docker
+: 1573672265:0;systemctl status docker
+: 1573672279:0;sudo systemctl status docker
+: 1573672289:0;sudo systemctl start docker
+: 1573672303:0;sudo systemctl status docker.service
+: 1573672312:0;journalctl -xe
+: 1573672340:0;sen
+: 1573672360:0;sudo sen
+: 1573672378:0;sudo docker run hello-world
+: 1573672412:0;sudo gpasswd -a ${USER} docker && sudo systemctl restart docker
+: 1573672425:0;newgrp docker
+: 1573672448:0;sudo systemctl enable docker
+: 1573672482:0;sudo docker pull fedora:latest
+: 1573672494:0;dnfi docker-compose
+: 1573672570:0;codium .
+: 1573672768:0;alias | grep dnf
+: 1573672776:0;dnfu
+: 1573678261:0;sudo systemctl enable docker
+: 1573678287:0;sudo systemctl status docker.service
+: 1573678299:0;sudo systemctl status docker
+: 1573678308:0;sudo systemctl is-active docker
+: 1573678312:0;sudo systemctl enable docker
+: 1573678322:0;docker --help
+: 1573678338:0;docker ps
+: 1573678348:0;dockerd
+: 1573678352:0;sudo dockerd
+: 1573678381:0;sudo dockerd --help
+: 1573678420:0;ifconfig
+: 1573678432:0;man dockerd
+: 1573678494:0;ls /
+: 1573678504:0;ls /dev
+: 1573678515:0;whereis docker
+: 1573678519:0;whereis dockerd
+: 1573678522:0;whereis docker-compose
+: 1573678528:0;man docker
+: 1573678561:0;man systemctl
+: 1573678629:0;sudo systemctl start docker
+: 1573678650:0;sudo service docker start
+: 1573678663:0;journalctl -xe
+: 1573678695:0;sudo systemctl disable docker
+: 1573678738:0;ls /etc/systemd/system/multi-user.target.wants
+: 1573678750:0;sudo systemctl enable docker
+: 1573678780:0;cat /usr/lib/systemd/system/docker.socket
+: 1573678792:0;cat /usr/lib/systemd/system/docker.service
+: 1573678841:0;sudo vim /usr/lib/systemd/system/docker.service
+: 1573678895:0;man reboot
+: 1573678921:0;sudo reboot now
+: 1573679963:0;sudo systemctl is-active docker
+: 1573679981:0;sudo systemctl start docker
+: 1573679994:0;systemctl status docker.service
+: 1573680016:0;journalctl -xe
+: 1573680133:0;ls /dev | grep cgroup
+: 1573680140:0;ls /dev
+: 1573680154:0;tree /dev
+: 1573680204:0;ls /
+: 1573680211:0;ls /boot
+: 1573680219:0;ls /opt
+: 1573680223:0;ls /opt/containerd
+: 1573680230:0;sudo ls /opt/containerd
+: 1573680236:0;sudo ls /opt/containerd/bin
+: 1573680239:0;sudo ls /opt/containerd/lib
+: 1573680248:0;sudo ls /proc
+: 1573680258:0;ls /proc
+: 1573680273:0;ls /proc/cgroups
+: 1573680278:0;/proc/cgroups
+: 1573680285:0;sudo /proc/cgroups --help
+: 1573680292:0;tree /proc
+: 1573680303:0;tree /proc | grep docker
+: 1573680308:0;ls /
+: 1573680312:0;ls /usr
+: 1573680321:0;ls /var
+: 1573680331:0;ls /var/opt
+: 1573680341:0;ls /srv
+: 1573680349:0;ls /sys
+: 1573680354:0;ls /sys/hypervisor
+: 1573680360:0;ls /sys/dev
+: 1573680378:0;man containerd
+: 1573680400:0;containerd
+: 1573680406:0;sudo containerd
+: 1573680410:0;bg
+: 1573680417:0;sudo systemctl start docker
+: 1573680426:0;journalctl
+: 1573680433:0;journalctl -xe
+: 1573680453:0;podman --help
+: 1573680456:0;podman ps
+: 1573680463:0;podman images
+: 1573680496:0;pj hyperledger
+: 1573680499:0;ls
+: 1573680504:0;./initws.sh
+: 1573680508:0;ls bin
+: 1573680520:0;ls
+: 1573680525:0;ls bin
+: 1573680537:0;pwd
+: 1573680544:0;vim initws.sh
+: 1573680561:0;ls $(pwd)
+: 1573680566:0;ls $(pwd)/bin
+: 1573680577:0;vim initws.sh
+: 1573680587:0;./initws.sh
+: 1573680594:0;configtxgen --help
+: 1573680602:0;cat initws.sh
+: 1573680621:0;export PATH=$(pwd)/bin:$PATH
+: 1573680629:0;configtxgen --help
+: 1573680641:0;ls
+: 1573680646:0;cd fabric-samples
+: 1573680648:0;ls
+: 1573680654:0;cd first-network/
+: 1573680656:0;ls
+: 1573680669:0;ghostwriter README.md
+: 1573680713:0;vim byfn.sh
+: 1573680758:0;./byfn.sh -h
+: 1573680764:0;./byfn.sh
+: 1573680775:0;./byfn.sh generate
+: 1573680787:0;./byfn.sh 
+: 1573680793:0;./byfn.sh up
+: 1573680822:0;vim ./byfn.sh
+: 1573680964:0;gedit ./byfn.sh
+: 1573681151:0;./byfn.sh
+: 1573681157:0;./byfn.sh generate
+: 1573681167:0;./byfn.sh up
+: 1573681204:0;cd ..
+: 1573681205:0;ls
+: 1573681213:0;cd fabcar
+: 1573681215:0;ls
+: 1573681225:0;ls javascript
+: 1573681234:0;ls javascript/wallet
+: 1573681247:0;cd javascript
+: 1573681250:0;cat package.json
+: 1573681271:0;yarn
+: 1573681278:0;nvm ls
+: 1573681288:0;nvm use v12.13.0
+: 1573681297:0;yarn
+: 1573681317:0;cd ..
+: 1573681321:0;cd java
+: 1573681345:0;ls
+: 1573681348:0;cd ..
+: 1573681349:0;ls
+: 1573681353:0;cd ..
+: 1573681354:0;ls
+: 1573681362:0;cd commercial-paper/m
+: 1573681363:0;cd commercial-paper/
+: 1573681366:0;ls
+: 1573681371:0;ls organization
+: 1573681376:0;ls organization/digibank
+: 1573681385:0;ls organization/digibank/application
+: 1573681396:0;ls organization/digibank/contract
+: 1573687812:0;sudo dnf install docker-ce docker-ce-cli containerd.io
+: 1573687867:0;ping google.com
+: 1573688211:0;sudo systemctl start docker
+: 1573688226:0;journalctl -xe
+: 1573688493:0;lsusb
+: 1573688520:0;lsusb --hzlp
+: 1573688535:0;lsusb -t
+: 1573688541:0;ls
+: 1573688544:0;lsusb
+: 1573688625:0;ifconfig
+: 1573688650:0;ping google.com
+: 1573688844:0;sudo vim /usr/lib/systemd/system/docker.service
+: 1573688959:0;ls /etc/docker
+: 1573689052:0;sudo vim /usr/lib/systemd/system/docker.service
+: 1573689128:0;systemctl status docker.service
+: 1573689156:0;sudo systemctl daemon-reload
+: 1573689161:0;systemctl status docker.service
+: 1573689170:0;systemctl start docker.service
+: 1573689227:0;sudo vim /usr/lib/systemd/system/docker.service
+: 1573689313:0;systemctl start docker.service
+: 1573689345:0;sudo vim /usr/lib/systemd/system/docker.service
+: 1573689385:0;journalctl -fu docker
+: 1573690273:0;man runc 
+: 1573691842:0;whereis runc
+: 1573692471:0;sudo systemctl edit docker.service
+: 1573692519:0;sudo systemctl daemon-reload
+: 1573692529:0;sudo systemctl restart docker.service
+: 1573692569:0;sudo /usr/bin/dockerd -H unix:// -H tcp://127.0.0.1:2375
+: 1573692671:0;sudo service docker stop
+: 1573692685:0;\
+sudo service containerd stop
+: 1573692694:0;sudo cgroupfs-umount
+: 1573692705:0;sudo cgroupfs-mount
+: 1573692719:0;whereis cgroup
+: 1573692721:0;whereis cgroupfs
+: 1573692728:0;dnfs cgroupfs
+: 1573692795:0;dnfs cgroup
+: 1573692843:0;dnfi golang-github-containerd-cgroups-devel
+: 1573692977:0;whereis cgroup
+: 1573692980:0;whereis cgroupfs
+: 1573692985:0;ls go/bin
+: 1573693072:0;cat /proc/filesystems
+: 1573693084:0;cat /proc/filesystems | grep cgroup
+: 1573693198:0;dnfu
+: 1573693251:0;rpm -q moby-engine systemd
+: 1573693352:0;sudo dnf install -y moby-engine
+: 1573693392:0;systemctl start docker.service
+: 1573693419:0;systemctl status docker.service | cat
+: 1573693489:0;rpm-ostree kargs --editor
+: 1573694049:0;sudo systemctl status docker
+: 1573694070:0;sudo systemctl start docker
+: 1573694095:0;sudo dockerd 
+: 1573694118:0;ls /etc/grub.d
+: 1573694125:0;sudo ls /etc/grub.d
+: 1573694178:0;cat /etc/default/grub
+: 1573694190:0;sudo vim /etc/default/grub
+: 1573694277:0;cat /etc/sysconfig/grub
+: 1573694284:0;sudo vim /etc/sysconfig/grub
+: 1573694376:0;sudo reboot now
+: 1573694619:0;time ls
+: 1573694640:0;sudo systemctl status docker
+: 1573694659:0;sudo systemctl disable docker
+: 1573694668:0;sudo systemctl start docker
+: 1573694681:0;journalctl -xe
+: 1573694699:0;whereis cgroup
+: 1573694727:0;sudo vim /etc/sysconfig/grub
+: 1573694769:0;sudo dnf distro-sync 
+: 1573694930:0;pj Github
+: 1573694933:0;ls
+: 1573694939:0;cd hasura
+: 1573694946:0;podman-compose up -d
+: 1573695246:0;podman ps
+: 1573695320:0;ls
+: 1573695325:0;cat docker-compose.yaml
+: 1573695385:0;podman-compose down
+: 1573697257:0;podman ps
+: 1573697265:0;sudo shutdown now
+: 1573699885:0;dnf kargs --editor
+: 1573700016:0;sudo systemctl status docker
+: 1573700032:0;sudo systemctl start docker
+: 1573700052:0;sudo systemctl status docker
+: 1573700073:0;pj hyperledger
+: 1573700085:0;cd ..
+: 1573700087:0;cd docker-test
+: 1573700091:0;docker run hello-world
+: 1573700118:0;docker ps
+: 1573700126:0;docker run -it ubuntu bash
+: 1573700631:0;docker ps
+: 1573705426:0;sudo systemctl status docker
+: 1573705461:0;sudo systemctl start docker
+: 1573705484:0;pj hyperledger
+: 1573705490:0;cd ..
+: 1573705502:0;mkdir ibm-cloud
+: 1573705509:0;cd ibm-cloud
+: 1573705517:0;codium .
+: 1573745829:0;pj hyperledger
+: 1573745843:0;./initws.sh
+: 1573745847:0;ls
+: 1573745853:0;ls bin
+: 1573745867:0;cat ./initws.sh
+: 1573745887:0;export PATH=./bin:$PATH
+: 1573745906:0;export PATH=$(pwd)/bin:$PATH
+: 1573745939:0;cd fabric-samples/first-network
+: 1573745945:0;./byfn.sh generate
+: 1573745967:0;./byfn.sh up -l node
+: 1573746514:0;cd ../..
+: 1573746517:0;cd ..
+: 1573746518:0;ls
+: 1573746537:0;ls SonnBusiness
+: 1573746543:0;ls GlobalPartnerSolution
+: 1573746549:0;ls TEO
+: 1573746553:0;ls TEO/site
+: 1573746558:0;cd TEO/site
+: 1573746574:0;docker-compose up -d -t "Teo"
+: 1573746591:0;docker-compose up -d
+: 1573748951:0;sudo systemctl start docker
+: 1573748974:0;sudo shutdown now
+: 1573749705:0;sudo systemctl start docker
+: 1573749726:0;pj TEO/site
+: 1573749730:0;docker-compose up -d
+: 1573749865:0;whereis docker-proxy
+: 1573749911:0;dnfs docker-proxy
+: 1573749974:0;google exec: "docker-proxy": executable file not found in $PATH\
+ERROR: Encountered errors while bringing up the project.\
+
+: 1573749986:0;google exec: "docker-proxy": executable file not found in $PATH\
+
+: 1573750062:0;nvm ls
+: 1573750078:0;nvm use v12.13.0
+: 1573750144:0;node -v
+: 1573750154:0;nvm use v12.13.0
+: 1573750170:0;node -v
+: 1573750179:0;whereis docker-proxy
+: 1573750189:0;docker-compose up -d
+: 1573750255:0;docker ps
+: 1573750327:0;docker stop 44f02f27f8ef
+: 1573750354:0;podman ps
+: 1573750361:0;docker ps
+: 1573750366:0;docker-compose up -d
+: 1573750373:0;pj 
+: 1573750375:0;ls
+: 1573750397:0;ls Github
+: 1573750400:0;ls Github/omnizya
+: 1573750404:0;ls Github/omnizya/blog
+: 1573750410:0;mkdir Andiro
+: 1573750415:0;cd Andiro
+: 1573750451:0;yarn create react-app landing
+: 1573750494:0;netstat -lntp
+: 1573750502:0;netstat
+: 1573750534:0;docker help
+: 1573750542:0;docker stats
+: 1573750554:0;docker stop 44f0
+: 1573750657:0;docker stats
+: 1573750663:0;sen
+: 1573751252:0;cd landing
+: 1573751256:0;yarn
+: 1573751274:0;docker-compose up -d
+: 1573751774:0;sudo docker-compose up -d
+: 1573752886:0;pj --help
+: 1573752891:0;pj -h
+: 1573753349:0;docker-compose down
+: 1573753354:0;ls
+: 1573753636:0;sudo docker-compose down
+: 1573753655:0;sudo vim /etc/sysconfig/grub
+: 1573755173:0;git-cola
+: 1573755192:0;git-dag
+: 1573755203:0;dnfs PySide
+: 1573755273:0;dnfi pyside2-tools
+: 1573755405:0;git-dag
+: 1573755411:0;git-cola
+: 1573755426:0;dnfi pyside-tools
+: 1573755716:0;ls /boot
+: 1573755723:0;ls /boot/efi
+: 1573755728:0;sudo ls /boot/efi
+: 1573755740:0;sudo ls /boot/efi/EFI
+: 1573755755:0;sudo ls /boot/efi/EFI/fedora
+: 1573755765:0;sudo ls /boot/efi/EFI/fedora/grub.cfg
+: 1573755771:0;sudo cat /boot/efi/EFI/fedora/grub.cfg
+: 1573755796:0;sudo grub2-mkconfig -o /boot/efi/EFI/fedora/grub.cfg
+: 1573755807:0;sudo cat /boot/efi/EFI/fedora/grub.cfg
+: 1573755822:0;git-cola
+: 1573755829:0;git-dag
+: 1573755852:0;sudo dnf remove git-dag git-cola
+: 1573755889:0;dnfr pyside-tools
+: 1573755914:0;dnfr pyside2-tools
+: 1573755935:0;pj
+: 1573755937:0;ls
+: 1573756035:0;cd Andiro
+: 1573756955:0;snap
+: 1573757089:0;sudo dnf install snapd
+: 1573759046:0;sudo ln -s /var/lib/snapd/snap /snap
+: 1573759095:0;sudo snap install hello-world
+: 1573762034:0;lsusb
+: 1573762200:0;sudo snap install hello-world
+: 1573762242:0;lsusb
+: 1573762251:0;sudo shutdown now
+: 1573762545:0;lsusb
+: 1573762627:0;sudo shutdown now
+: 1573762634:0;lsusb
+: 1573762717:0;ifconfig
+: 1573762729:0;lsusb
+: 1573763314:0;ping google.com
+: 1573763838:0;sen
+: 1573763872:0;ifcfg
+: 1573763879:0;ifconfig
+: 1573763943:0;sudo systemctl start docker
+: 1573763948:0;ifconfig
+: 1573763951:0;sen
+: 1573764073:0;pj
+: 1573764089:0;ls
+: 1573764100:0;cd hyperledger
+: 1573764103:0;codium .
+: 1573764712:0;dnfu
+: 1573766972:0;dnfs build-essential
+: 1573767129:0;dnfgl
+: 1573767579:0;sudo dnf  groupinstall "Development Tools"
+: 1573767879:0;lsusb
+: 1573767978:0;sudo dnf  groupinstall "Development Tools"
+: 1573825910:0;dnfu
+: 1573827055:0;sudo dnf clean packages
+: 1573827067:0;dnfu
+: 1573827392:0;sudo yum install https://prerelease.keybase.io/keybase_amd64.rpm
+: 1573827402:0;sudo dnf install https://prerelease.keybase.io/keybase_amd64.rpm
+: 1573829162:0;pj ibm-cloud
+: 1573829166:0;codium .
+: 1573829570:0;cd
+: 1573829579:0;cd Apps
+: 1573829592:0;wget https://prerelease.keybase.io/keybase_amd64.rpm
+: 1573831633:0;sudo dnf install ./keybase_amd64.rpm 
+: 1573832085:0;dnfu -y
+: 1573837873:0;node -v
+: 1573837878:0;npm -v
+: 1573837890:0;cd .vscode-oss
+: 1573837891:0;ls
+: 1573837900:0;cd extensions/
+: 1573837901:0;l
+: 1573837903:0;ls
+: 1573837914:0;cd ibmblockchain.ibm-blockchain-platform-1.0.15
+: 1573837915:0;ls
+: 1573837929:0;ghostwriter README.md
+: 1573838123:0;ls extension
+: 1573838137:0;less package.
+: 1573838141:0;less package.json
+: 1573838185:0;cat package.json
+: 1573838224:0;yarn
+: 1573838230:0;npm i
+: 1573839137:0;cat package.json
+: 1573839160:0;vim package.json
+: 1573839246:0;npm compile
+: 1573839394:0;npm run compile
+: 1573839412:0;npm run build
+: 1573839421:0;gedit ./
+: 1573839434:0;ls
+: 1573839442:0;ls extension
+: 1573839449:0;ls extension/fabric
+: 1573839459:0;ls build
+: 1573839469:0;ls resources
+: 1573839488:0;gedit package.json
+: 1573839577:0;ls
+: 1573839584:0;pj ibm-cloud
+: 1573839681:0;dnfs dkms
+: 1573839698:0;codium --help
+: 1573839922:0;codium ./
+: 1573840035:0;dnfi dkms
+: 1573840778:0;npm install -g node-gyp
+: 1573840876:0;cd .vscode-oss/extensions/ibmblockchain.ibm-blockchain-platform-1.0.15
+: 1573840884:0;npm rebuild
+: 1573841173:0;codium .
+: 1573842824:0;extract electron-v6.0-linux-x64-glibc.tar.gz
+: 1573843009:0;mv electron-v6.0-linux-x64-glibc ~/.vscode-oss/extensions/ibmblockchain.ibm-blockchain-platform-1.0.15/node_modules/grpc/src/node/extension_binary
+: 1573843446:0;pj Github
+: 1573843452:0;git clone git@github.com:anbox/anbox-modules.git
+: 1573843471:0;git clone https://github.com/anbox/anbox-modules.git
+: 1573843476:0;cd anbox-modules
+: 1573843482:0;ls
+: 1573843508:0;sudo cp anbox.conf /etc/modules-load.d
+: 1573843532:0;sudo cp 99-anbox.rules /lib/udev/rules.d
+: 1573843565:0;sudo cp -rT ashmem /usr/src/anbox-ashmem-1
+: 1573843572:0;sudo cp -rT binder /usr/src/anbox-binder-1
+: 1573843580:0;sudo dkms install anbox-ashmem/1
+: 1573843610:0;pj ibm-cloud
+: 1573843613:0;codium .
+: 1573843637:0;cd ~/.vscode-oss/extensions/ibmblockchain.ibm-blockchain-platform-1.0.15
+: 1573843681:0;_lynx 
+: 1573843685:0;lynx
+: 1573843691:0;google electron-v6.1-linux-x64-glibc.tar.gz 
+: 1573843916:0;sudo modprobe ashmem_linux
+: 1573844604:0;lv  ~/.vscode-oss/extensions/ibmblockchain.ibm-blockchain-platform-1.0.15/node_modules/grpc/src/node/extension_binary/
+: 1573844608:0;ls  ~/.vscode-oss/extensions/ibmblockchain.ibm-blockchain-platform-1.0.15/node_modules/grpc/src/node/extension_binary/
+: 1573844619:0;ls node_modules/grpc/src/node/extension_binary/
+: 1573844626:0;ls node_modules/grpc/src/node/extension_binary/electron-v6.1-linux-x64-glibc
+: 1573844635:0;rm node_modules/grpc/src/node/extension_binary/electron-v6.1-linux-x64-glibc
+: 1573844638:0;rm node_modules/grpc/src/node/extension_binary/electron-v6.1-linux-x64-glibc -r
+: 1573844664:0;mv node_modules/grpc/src/node/extension_binary/electron-v6.0-linux-x64-glibc node_modules/grpc/src/node/extension_binary/electron-v6.1-linux-x64-glibc
+: 1573852704:0;sudo modprobe ashmem_linux
+: 1573852725:0;pj Github
+: 1573852736:0;cd anbox-modules
+: 1573852786:0;sudo cp anbox.conf /etc/modules-load.d/~
+: 1573852800:0;sudo cp anbox.conf /etc/modules-load.d/
+: 1573852814:0;rm /etc/modules-load.d/\~
+: 1573852821:0;sudo rm /etc/modules-load.d/\~
+: 1573852826:0;sudo cp anbox.conf /etc/modules-load.d/
+: 1573852840:0;sudo cp 99-anbox.rules /lib/udev/rules.d/
+: 1573852852:0;sudo cp -rT ashmem /usr/src/anbox-ashmem-1
+: 1573852861:0;sudo cp -rT binder /usr/src/anbox-binder-1
+: 1573852872:0;sudo dkms install anbox-ashmem/1
+: 1573852892:0;sudo dkms install anbox-binder/1
+: 1573853051:0;sudo modprobe ashmem_linux
+: 1573853063:0;sudo modprobe binder_linux
+: 1573853076:0;lsmod | grep -e ashmem_linux -e binder_linux
+: 1573853102:0;ls -alh /dev/binder /dev/ashmem
+: 1573853136:0;sudo dkms install anbox-ashmem/1
+: 1573853143:0;dkms --help
+: 1573853164:0;sudo dkms install anbox-ashmem/1 --force
+: 1573853193:0;lsusb
+: 1573853350:0;sudo shutdown now
+: 1573854917:0;lsusb
+: 1573854961:0;pj
+: 1573854970:0;cd Github
+: 1573854983:0;mkdir GamePadJS
+: 1573854988:0;cd GamePadJS
+: 1573855285:0;zeal
+: 1573855308:0;zeal --help
+: 1573855319:0;zeal -f
+: 1573862503:0;lsusb
+: 1573862621:0;ifconfig
+: 1573862716:0;lsusb
+: 1573862827:0;ifconfig
+: 1573862978:0;lsusb
+: 1573863034:0;lshw
+: 1573863049:0;lscpu
+: 1573863083:0;man lscpu
+: 1573863126:0;lsmem
+: 1573863138:0;man lsusb
+: 1573863162:0;lsusb -t -l
+: 1573863173:0;lsusb -t -v
+: 1573863283:0;sen
+: 1573863356:0;sudo systemctl start docker
+: 1573863382:0;sen
+: 1573864255:0;lsusb
+: 1573864264:0;pj ibm-cloud
+: 1573864266:0;ls
+: 1573864273:0;tree .
+: 1573865631:0;cat /etc/hosts
+: 1573865672:0;cp /etc/hosts /etc/hosts.backup
+: 1573865678:0;sudo cp /etc/hosts /etc/hosts.backup
+: 1573865736:0;python testUpdateHostsFile.py
+: 1573865748:0;python -v
+: 1573865761:0;python --version
+: 1573865781:0;python updateHostsFile.py -h
+: 1573865856:0;python updateHostsFile.py -c -m -b
+: 1573865942:0;cat /etc/hosts
+: 1573865954:0;gedit /etc/hosts
+: 1573918592:0;pj Github
+: 1573918598:0;cd anbox-modules
+: 1573918611:0;sudo dkms remove anbox-ashmem/1
+: 1573919187:0;snap install --devmode --beta anbox
+: 1573919956:0;pj ibm-cloud
+: 1573919961:0;codium .
+: 1573920035:0;sudo systemctl start docker
+: 1573920118:0;codium .
+: 1573920639:0;cd ~/.vscode-oss/extensions/ibmblockchain.ibm-blockchain-platform-1.0.15
+: 1573920641:0;ls
+: 1573920665:0;lx tutorials
+: 1573920670:0;ls tutorials
+: 1573920676:0;ls tutorials/developer-tutorials
+: 1573920682:0;ls tutorials/ibm-blockchain-platform-vscode-smart-contract
+: 1573920685:0;ls
+: 1573920690:0;ls basic-network
+: 1573920713:0;ls public
+: 1573920720:0;cd basic-network
+: 1573920724:0;./teardown.sh
+: 1573920757:0;cd ..
+: 1573920759:0;ls
+: 1573920765:0;ls cypress
+: 1573920770:0;ls extension
+: 1573920777:0;ls extension/fabric
+: 1573920789:0;ls
+: 1573920797:0;ls templates
+: 1573920801:0;cd ..
+: 1573920803:0;ls
+: 1573920807:0;cd ..
+: 1573920811:0;ls
+: 1573920814:0;cd ..
+: 1573920816:0;ls
+: 1573920823:0;ls -a
+: 1573920830:0;ls .workrave
+: 1573920854:0;ls .fabric-vscode/
+: 1573920861:0;cd .fabric-vscode
+: 1573920865:0;ls -a
+: 1573920870:0;ls environments
+: 1573920877:0;cd environments/local_fabric
+: 1573920878:0;ls
+: 1573920888:0;docker-compose ps
+: 1573920900:0;docker ps
+: 1573920905:0;sudo docker ps
+: 1573920915:0;sudo docker-compose ps
+: 1573920945:0;node -v
+: 1573920977:0;./teardown.sh
+: 1573921036:0;codium .
+: 1573926012:0;dnfs docker-proxy
+: 1573926100:0;docker-compose ps
+: 1573926161:0;docker ps
+: 1573926164:0;ls
+: 1573926180:0;./generate.sh
+: 1573926239:0;./teardown.sh
+: 1573926249:0;./generate.sh
+: 1573926269:0;dnfu -y
+: 1573928992:0;cd .fabric-vscode/
+: 1573928994:0;ls
+: 1573929042:0;ls environments
+: 1573929044:0;ls
+: 1573929050:0;cd environments/local_fabric
+: 1573929061:0;gedit generate.sh
+: 1573929172:0;sudo systemctl start docker
+: 1573929197:0;sudo systemctl status docker
+: 1573929247:0;./generate.sh
+: 1573929276:0;pj
+: 1573929278:0;ls
+: 1573929286:0;cd Github/anbox-modules
+: 1573929288:0;ls
+: 1573929296:0;man dkms m
+: 1573929324:0;sudo dkms remove anbox-ashmem/1 --all
+: 1573929406:0;docker-compose ps
+: 1573929414:0;docker-compose -h
+: 1573929423:0;docker-compose ps
+: 1573929431:0;docker-compose top
+: 1573929440:0;docker-compose start
+: 1573929465:0;docker-compose build
+: 1573929476:0;man open
+: 1573929508:0;docker-compose ps
+: 1573929526:0;docker-compose down
+: 1573929535:0;docker-compose ps
+: 1573929542:0;docker ps
+: 1573929561:0;docker images
+: 1573929572:0;docker
+: 1573929579:0;docker update
+: 1573929585:0;docker stats
+: 1573929592:0;docker
+: 1573929601:0;docker pull
+: 1573929613:0;sudo docker ps
+: 1573929622:0;sudo docker-compose ps
+: 1573929636:0;gedit README.md
+: 1573929659:0;bg
+: 1573929674:0;sudo cp anbox.conf /etc/modules-load.d
+: 1573929694:0;sudo cp 99-anbox.rules /lib/udev/rules.d
+: 1573929722:0;sudo cp -rT ashmem /usr/src/anbox-ashmem-1
+: 1573929747:0;sudo cp -rT binder /usr/src/anbox-binder-1
+: 1573929767:0;sudo dkm install anbox-ashmem/1
+: 1573929772:0;sudo dkms install anbox-ashmem/1
+: 1573929987:0;sudo dkms install anbox-binder/1
+: 1573930002:0;sudo modprobe ashmem_linux
+: 1573930011:0;sudo modprobe binder_linux
+: 1573930021:0;lsmod | grep -e ashmem_linux -e binder_linux
+: 1573930053:0;ls -alh /dev/binder /dev/ashmem
+: 1573930180:0;anbox --help
+: 1573930217:0;anbox wait-ready
+: 1573930243:0;anbox check-features
+: 1573930254:0;anbox system-info
+: 1573930262:0;anbox wait-ready
+: 1573930931:0;head '/home/eisenulfr/Desktop/restore/home/eisenulfr/Desktop/backup/Source/sql/countries.sql' 
+: 1573930942:0;less '/home/eisenulfr/Desktop/restore/home/eisenulfr/Desktop/backup/Source/sql/countries.sql' 
+: 1573931351:0;ls
+: 1573931364:0;./is_generated.sh
+: 1573931378:0;./is_running.sh
+: 1573931391:0;./teardown.sh
+: 1573931445:0;ls
+: 1573931462:0;codium .
+: 1573931624:0;ls /opt
+: 1573934015:0;battery
+: 1573934022:0;battery_is_charging
+: 1573934112:0;journalctl
+: 1573934131:0;anbox
+: 1573934218:0;anbox launch
+: 1573934246:0;anbox.shell
+: 1573934252:0;sudo anbox.shell
+: 1573934268:0;anbox.appmgr
+: 1573934340:0;snap --help
+: 1573934357:0;snap list
+: 1573934627:0;snap remove anbox
+: 1573935421:0;pj
+: 1573935802:0;ls
+: 1573936732:0;cd ibm-cloud
+: 1573936733:0;ls
+: 1573936739:0;npm i
+: 1573936797:0;less package.json
+: 1573936819:0;node start
+: 1573936833:0;npm start
+: 1573936852:0;codium .
+: 1573937174:0;sudo systemctl status docker
+: 1573944167:0;rpm -ql docker | grep proxy
+: 1573944187:0;rpm -ql docker
+: 1573944243:0;dnf list docker-ce  --showduplicates | sort -r
+: 1573946182:0;dnf list -y docker-ce  --showduplicates | sort -r
+: 1573946592:0;dnfs docker
+: 1573946706:0;dnfs -y docker
+: 1573948325:0;dnfu -y
+: 1573948443:0;cd ..
+: 1573948448:0;ls
+: 1573948456:0;ls TEO
+: 1573948462:0;ls TEO/site
+: 1573948468:0;cd TEO/site
+: 1573948483:0;docker-compose up -d
+: 1573950185:0;sudo docker-compose up -d
+: 1573950207:0;docker-compose up -d
+: 1573951220:0;docker ps
+: 1573951240:0;docker-compose ps
+: 1573951250:0;gedit ./docker-compose.yml
+: 1573951305:0;docker-compose up -d
+: 1573951394:0;docker-compose down
+: 1573951409:0;gedit ./docker-compose.yml
+: 1573952787:0;podman-compose up
+: 1573952923:0;podman ps
+: 1573952930:0;podman-compose ps
+: 1573952942:0;podman-compose rmi
+: 1573952953:0;podman-compose down
+: 1573952971:0;docker-compose down
+: 1573952978:0;docker-compose ps
+: 1573952991:0;podman-compose ps
+: 1573952999:0;podman-compose images
+: 1573953009:0;podman-compose build
+: 1573953018:0;podman-compose build --help
+: 1573953038:0;podman-compose logs
+: 1573953052:0;docker ps
+: 1573953057:0;docker images
+: 1573953070:0;docker rmi adminer
+: 1573953081:0;docker rmi wordpres
+: 1573953084:0;docker rmi wordpress
+: 1573953091:0;docker rmi mariadb
+: 1573953095:0;docker images
+: 1573953117:0;docker rmi hyperledger/fabric-tools
+: 1573953133:0;docker rmi 18ed
+: 1573953697:0;docker rmi c18
+: 1573953708:0;docker images
+: 1573953722:0;docker rmi c18a0
+: 1573953731:0;docker rmi c18a0 -f
+: 1573953735:0;docker images
+: 1573953742:0;docker hep
+: 1573953752:0;docker --help
+: 1573953783:0;docker container
+: 1573953796:0;docker container ls
+: 1573953805:0;podman ps
+: 1573953809:0;podman images
+: 1573953823:0;podman-compose
+: 1573953846:0;podman-compose up -d
+: 1573953948:0;docker-compose up -d
+: 1573956039:0;gedit ./docker-compose.yml
+: 1573956094:0;docker-compose up -d
+: 1573956114:0;gedit ./docker-compose.yml
+: 1573956136:0;docker-compose up -d
+: 1573956170:0;gedit ./docker-compose.yml
+: 1573956187:0;docker-compose up -d
+: 1573956201:0;gedit ./docker-compose.yml
+: 1573956220:0;docker-compose up -d
+: 1573956237:0;gedit ./docker-compose.yml
+: 1573956263:0;docker-compose up -d
+: 1573956284:0;podman-compose up -d
+: 1574000660:0;./run-orangescrum.sh
+: 1574000669:0;chmod +x ./run-orangescrum.sh
+: 1574000672:0;./run-orangescrum.sh
+: 1574000700:0;systemctl status docker
+: 1574000709:0;./run-orangescrum.sh
+: 1574000740:0;vim ./run-orangescrum.sh
+: 1574000768:0;./run-orangescrum.sh
+: 1574000876:0;ping google.com
+: 1574006456:0;pj
+: 1574006467:0;./run-orangescrum.sh
+: 1574006915:0;podman ps
+: 1574006930:0;podman rmi c8b26
+: 1574006938:0;podman images
+: 1574006947:0;podman rmi --all
+: 1574007011:0;podman images
+: 1574007019:0;podman pods
+: 1574007021:0;podman pod
+: 1574007025:0;podman pod ls
+: 1574007036:0;podman pod --help
+: 1574007039:0;podman pod ls
+: 1574007066:0;podman pod rm 9db82
+: 1574007077:0;podman pod rm 2eee
+: 1574007083:0;sudo podman pod rm 2eee
+: 1574007141:0;sudo podman ps
+: 1574007149:0;podman ps
+: 1574007158:0;podman stop c8b26
+: 1574007167:0;podman pod ls
+: 1574007173:0;podman pod --help
+: 1574007176:0;podman pod ls
+: 1574007183:0;podman pod stop site
+: 1574007190:0;podman pod stop first-network
+: 1574007199:0;podman pod ls
+: 1574007206:0;podman pod rm site
+: 1574007218:0;podman pod rm 2eee
+: 1574007225:0;podman containers
+: 1574007227:0;podman container
+: 1574007233:0;podman container ls
+: 1574007237:0;podman container --help
+: 1574007253:0;podman container kill --all
+: 1574007264:0;podman container stop --all
+: 1574007272:0;podman container rm --all
+: 1574007293:0;podman pod rm --all
+: 1574007299:0;podman pod ls
+: 1574007354:0;podman container ls
+: 1574007371:0;sudo systemctl start docker
+: 1574007611:0;node -v
+: 1574007705:0;npx create-react-app afriquiajs
+: 1574008517:0;cd afriquiajs
+: 1574008520:0;codium .
+: 1574008532:0;cd ../XeedBack
+: 1574008546:0;git clone git@github.com:moughamir/xeedback.git
+: 1574011932:0;nodejs
+: 1574011936:0;node
+: 1574012551:0;yes
+: 1574012593:0;node
+: 1574018062:0;npm i -g now
+: 1574018163:0;now login
+: 1574092056:0;dnfu -y
+: 1574092986:0;cd /home/eisenulfr/Projects/Android/codecanyon-23771025-battleworld-online-pubg-tournaments-organizer/Main/Admin_panel/RoyalArena
+: 1574092989:0;git init
+: 1574092996:0;git status
+: 1574093009:0;gi php
+: 1574093057:0;ls
+: 1574093107:0;ls paytm
+: 1574093122:0;ls data
+: 1574093133:0;ls matching
+: 1574093139:0;ls matchimg
+: 1574093187:0;whereis gi
+: 1574093528:0;vim Dockerfile
+: 1574093878:0;sudo systemctl start docker
+: 1574093931:0;docker app
+: 1574094286:0;docker --help
+: 1574105575:0;pj
+: 1574105578:0;git clone https://github.com/cytopia/devilbox
+: 1574105759:0;sudo systemctl start docker
+: 1574105818:0;cd devilbox
+: 1574105825:0;cp env-example .env
+: 1574105830:0;vim .env
+: 1574106049:0;id
+: 1574106599:0;docker-compose up
+: 1574106609:0;ls
+: 1574106881:0;docker-compose pull
+: 1574108520:0;vim docker-compose.yml
+: 1574110755:0;docker-compose pull
+: 1574111846:0;vim shell.sh
+: 1574111877:0;vim README.md
+: 1574115190:0;docker images
+: 1574115253:0;systemctl start docker
+: 1574115282:0;docker images
+: 1574115368:0;gedit .env
+: 1574115453:0;docker pull devilbox/php-fpm:7.2-work-0.89
+: 1574118686:0;docker pull devilbox/nginx-stable:0.30
+: 1574119522:0;docker pull redis:5.0
+: 1574119675:0;docker pull memcached:1.5
+: 1574119734:0;docker pull mongo:4.0
+: 1574120509:0;docker pull postgres:11.1
+: 1574120845:0;docker pull devilbox/mysql:mariadb-10.3-0.3
+: 1574121462:0;pj
+: 1574121471:0;cd devilbox
+: 1574121484:0;docker-compose up
+: 1574121541:0;docker ps
+: 1574121554:0;docker stop c8d96
+: 1574121580:0;sen
+: 1574121787:0;docker-compose up
+: 1574121872:0;google ERROR: Encountered errors while bringing up the project.\
+
+: 1574122015:0;docker-compose down
+: 1574122032:0;docker-compose up
+: 1574122062:0;docker-compose down
+: 1574122116:0;sudo docker-compose up
+: 1574122149:0;docker-compose down
+: 1574122189:0;docker network
+: 1574122196:0;docker network ls
+: 1574122203:0;docker network prune
+: 1574122212:0;docker network ls
+: 1574122223:0;docker ps
+: 1574122227:0;sudo docker ps
+: 1574122235:0;docker network ls
+: 1574122245:0;docker network rm --all
+: 1574122250:0;docker network rm -a
+: 1574122253:0;docker network rm 
+: 1574122259:0;docker network rm --help
+: 1574122267:0;docker network ls
+: 1574122276:0;docker network rm bridge
+: 1574122284:0;docker network rm host
+: 1574122293:0;docker network rm b6e44
+: 1574122301:0;docker network prune
+: 1574122313:0;docker-compose up
+: 1574122335:0;docker network ls
+: 1574122338:0;docker network prune
+: 1574122349:0;docker network ls
+: 1574122351:0;docker network
+: 1574122365:0;docker network ls
+: 1574122377:0;docker network inspect 3e7
+: 1574122445:0;		 netstat --listen
+: 1574122470:0;ifconfig
+: 1574122497:0;netstat -vatn
+: 1574122527:0;netstat -vat
+: 1574122581:0;lsof -i
+: 1574122720:0;lsof -i 4 -a -p 9255
+: 1574122739:0;lsof
+: 1574122791:0;lsof -i
+: 1574122838:0;netstat -vat
+: 1574122851:0;docker-compose 
+: 1574122871:0;docker-compose pull
+: 1574122914:0;docker-compose ps
+: 1574122932:0;docker-compose kill
+: 1574122938:0;docker-compose ps
+: 1574122972:0;docker-compose stop devilbox_bind_1
+: 1574122998:0;docker-compose ps
+: 1574123006:0;docker-compose down
+: 1574123013:0;docker-compose ps
+: 1574123020:0;docker-compose
+: 1574123054:0;docker-compose port
+: 1574123087:0;docker-compose bundle
+: 1574123114:0;docker-compose build
+: 1574123124:0;ls
+: 1574123136:0;head devilbox.dab
+: 1574123197:0;docker network ls
+: 1574123444:0;docker-compose up
+: 1574123516:0;docker-compose down
+: 1574123562:0;udo docker ps
+: 1574123581:0;systemctl enable docker
+: 1574123629:0;systemctl start containerd
+: 1574123656:0;systemctl status containerd
+: 1574123669:0;docker-compose up
+: 1574123784:0;docker-compose down
+: 1574123823:0;netstat | grep 1053
+: 1574123851:0;docker-compose ps
+: 1574123997:0;docker-compose ps --help
+: 1574124023:0;docker-compose ps -a
+: 1574124033:0;docker-compose ps --services
+: 1574124041:0;docker-compose ps --services -a
+: 1574124071:0;docker-compose up --help
+: 1574124151:0;docker-compose up --build --force-recreate
+: 1574124200:0;lsof -i -P -n | grep 1053
+: 1574124222:0;lsof -i  | grep 1053
+: 1574124238:0;docker-compose down
+: 1574124279:0;docker volume
+: 1574124282:0;docker volume ls
+: 1574124288:0;docker volume prune
+: 1574124295:0;docker volume ls
+: 1574124305:0;docker volume 
+: 1574124320:0;docker volume rm fabricvscodelocalfabric_ca.org1.example.com
+: 1574124332:0;docker volume inspect fabricvscodelocalfabric_ca.org1.example.com
+: 1574124347:0;docker volume 
+: 1574124359:0;docker volume rm --help
+: 1574124370:0;docker volume rm fabricvscodelocalfabric_ca.org1.example.com -f
+: 1574124380:0;docker volume inspect fabricvscodelocalfabric_ca.org1.example.com
+: 1574124395:0;sudo docker volume inspect fabricvscodelocalfabric_ca.org1.example.com
+: 1574124417:0;sudo docker volume inspect --help
+: 1574124443:0;sudo docker volume rm fabricvscodelocalfabric_ca.org1.example.com
+: 1574124450:0;sudo docker ps
+: 1574124459:0;sudo docker-compose ps
+: 1574124468:0;podman ps
+: 1574124474:0;podman pod
+: 1574124477:0;podman pod ls
+: 1574124484:0;podman pod --help
+: 1574124504:0;podman pod 
+: 1574124510:0;podman pod ps
+: 1574124517:0;podman ps
+: 1574124520:0;podman
+: 1574124525:0;podman --help
+: 1574124549:0;docker 
+: 1574124561:0;docker  stats
+: 1574124569:0;docker 
+: 1574124587:0;docker service
+: 1574124593:0;docker service ls
+: 1574124619:0;docker volume
+: 1574124622:0;docker volumes
+: 1574124634:0;docker volume inspect fabricvscodelocalfabric_ca.org1.example.com
+: 1574124646:0;docker volume rm fabricvscodelocalfabric_ca.org1.example.com
+: 1574124656:0;docker-compose
+: 1574124686:0;docker volume rm fabricvscodelocalfabric_ca.org1.example.com
+: 1574124700:0;cd
+: 1574124703:0;cd 
+: 1574124724:0;cd .vscode-oss/extensions/ibmblockchain.ibm-blockchain-platform-1.0.15/
+: 1574124729:0;ls
+: 1574124734:0;ls build
+: 1574124739:0;ls extension
+: 1574124746:0;cd extension/fabric
+: 1574124747:0;ls
+: 1574124754:0;cd ..
+: 1574124755:0;cd
+: 1574124759:0;cd .fabric-vscode
+: 1574124760:0;ls
+: 1574124766:0;cd environments
+: 1574124767:0;ls
+: 1574124772:0;cd local_fabric
+: 1574124774:0;ls
+: 1574124783:0;./kill_chaincode.sh
+: 1574124808:0;./stop.sh
+: 1574124821:0;./teardown.sh
+: 1574124850:0;docker volume ls
+: 1574124852:0;cd
+: 1574124857:0;pj devilbox
+: 1574124928:0;docker-compose up
+: 1574124947:0;docker-compose down
+: 1574124962:0;docker volume ls
+: 1574124972:0;docker volume prune
+: 1574124981:0;docker volume ls
+: 1574124984:0;cd
+: 1574125272:0;podman-compose up 
+: 1574129262:0;podman-compose down
+: 1574129307:0;sudo systemctl reload docker
+: 1574129323:0;sudo systemctl restart docker
+: 1574129351:0;docker-compose up
+: 1574129388:0;docker-compose down
+: 1574130210:0;docker-compose up
+: 1574130257:0;sudo systemctl stop containerd
+: 1574130291:0;docker-compose up
+: 1574174760:0;sudo systemctl status docker
+: 1574174810:0;sudo systemctl daemon-reload
+: 1574174822:0;sudo systemctl restart docker
+: 1574174862:0;docker volume ls
+: 1574174870:0;docker volume prune
+: 1574174878:0;docker volume ls
+: 1574174888:0;docker network ls
+: 1574174893:0;docker network 
+: 1574174898:0;docker network prune
+: 1574174904:0;docker network ls
+: 1574174935:0;docker-compose up
+: 1574174977:0;docker-compose down
+: 1574174989:0;docker-compose network prune -y
+: 1574174994:0;docker-compose network prune
+: 1574175001:0;docker network prune
+: 1574175010:0;docker volume prune
+: 1574175028:0;docker-compose up --build --force-recreate
+: 1574175221:0;docker-compose down --help
+: 1574175242:0;docker-compose down 
+: 1574175251:0;docker volume prune
+: 1574175265:0;docker volume prune -y
+: 1574175272:0;docker network prune
+: 1574175281:0;gedit docker-compose.yml
+: 1574175365:0;dnf list docker-ce --showduplicates
+: 1574176153:0;docker-compose up
+: 1574176236:0;docker network prune
+: 1574176246:0;docker volume prune
+: 1574176309:0;docker-compose down
+: 1574176319:0;docker-compose up --build --force-recreate
+: 1574176396:0;docker-compose down
+: 1574176407:0;sudo docker-compose up --build --force-recreate
+: 1574176428:0;sudo docker-compose down
+: 1574176455:0;podman pod
+: 1574176461:0;podman pod ls
+: 1574176818:0;dnf list docker --showduplicates
+: 1574176934:0;sudo dnf remove $(dnf repoquery --duplicated --latestt-limit -1 -q)
+: 1574176948:0;$(dnf repoquery --duplicated --latest-limit -1 -q)
+: 1574176978:0;dnf repoquery --duplicated --latest-limit -1 -q
+: 1574177040:0;dnf repoquery --duplicated --latest-limit 1 -q
+: 1574177127:0;dnf
+: 1574177172:0;dnf repolist
+: 1574177264:0;sudo dnf config-manager --disablerepo docker-ce-stable
+: 1574182318:0;dnfu
+: 1574182522:0;sudo dnf config-manager --disablerepo docker-ce-stable
+: 1574182538:0;alias | grep dnf
+: 1574182566:0;dnf repolist
+: 1574182592:0;sudo dnf config-manager --disablerepo docker-ce-stable
+: 1574182646:0;dnf repolist
+: 1574182690:0;ls /etc/yum.repos.d/
+: 1574182729:0;sudo dnf config-manager --set-disabled docker-ce-stable
+: 1574182733:0;dnf repolist
+: 1574182752:0;dnf
+: 1574182871:0;sudo dnf distro-sync
+: 1574184413:0;docker-compose up
+: 1574184477:0;dnfr docker
+: 1574184564:0;dnfr docker-compose
+: 1574184596:0;dnfi docker docker-compose -y
+: 1574184779:0;git status
+: 1574184796:0;docker-compose up
+: 1574184842:0;sudo systemctl start docker
+: 1574184849:0;docker-compose up
+: 1574184881:0;podman-compose up
+: 1574199589:0;sudo dnf upgrade libpod
+: 1574199914:0;dnfs libpod
+: 1574200177:0;dnfs podman
+: 1574200692:0;podman-compose down
+: 1574200722:0;dnfr podman podman-compose
+: 1574200824:0;dnfr docker docker-compose
+: 1574200992:0;alias | grep dnf
+: 1574201060:0;sudo dnf clean
+: 1574201070:0;dnf
+: 1574201171:0;sudo dnf clean
+: 1574201261:0;sudo dnf clean all
+: 1574201771:0;sudo dnf autoremove
+: 1574203323:0;sudo dnf clean all
+: 1574203939:0;gnome-shell --versin
+: 1574203943:0;gnome-shell --version
+: 1574206208:0;	cd
+: 1574206239:0;gedit ~/.local/share/gnome-shell/extensions/status@gnome-shell.2jk.org/extension.js
+: 1574206673:0;dnfi xprg-x11-utils
+: 1574207442:0;dnfi xorg-x11-utils
+: 1574367450:0;git flow init
+: 1574367457:0;git init
+: 1574367461:0;npm init
+: 1574371925:0;node
+: 1574373072:0;l
+: 1574373075:0;ls
+: 1574373079:0;node
+: 1574373191:0;node -v
+: 1574373195:0;nvm use 12
+: 1574373202:0;nvm ls
+: 1574373210:0;nvm use v12.13.0
+: 1574373225:0;node
+: 1574479004:0;codium .
+: 1574516596:0;node
+: 1574519050:0;firefox --help
+: 1574519113:0;firefox --devtools
+: 1574520310:0;node
+: 1574520334:0;python
+: 1574521178:0;java
+: 1574523357:0;dnfu
+: 1574543432:0;dnfu -y 
+: 1574543604:0;google "Use The Source, Luke"
+: 1574544270:0;$
+: 1574545960:0;dnfu -y 
+: 1574546340:0;dnf clean cache
+: 1574546349:0;dnf clean cache all
+: 1574546362:0;dnf clean all
+: 1574546371:0;dnf
+: 1574546573:0;dnf --color true upgrade  
+: 1574546587:0;sudo dnf --color true upgrade  
+: 1574552651:0;ls -1 /dev/{ashmem,binder}
+: 1574552687:0;sudo snap install --devmode --beta anbox
+: 1574552886:0;sudo snap install snap-store
+: 1574553006:0;snap info anbox
+: 1574553087:0;anbox.android-settings
+: 1574553173:0;anbox.appmgr --help
+: 1574553282:0;sudo snap set anbox rootfs-overlay.enable=true
+: 1574553337:0;sudo snap restart anbox.container-manager
+: 1574553478:0;sudo snap run --shell anbox.container-manager
+: 1574553673:0;anbox.appmgr --help
+: 1574553790:0;sudo snap set anbox software-rendering.enable=true
+: 1574553824:0;sudo snap restart anbox.container-manager
+: 1574553848:0;sudo snap set anbox bridge.address=192.168.250.2
+: 1574553850:0;sudo snap restart anbox.container-manager
+: 1574553878:0;sudo  snap set anbox container.netwokr.address=192.168.250.10
+: 1574553884:0;sudo snap restart anbox.container-manager
+: 1574554043:0;\
+\
+sudo dnf install make cmake clang bison flex python2 glibc-devel.i686 fuse-devel systemd-devel kernel-devel elfutils-libelf-devel cairo-devel freetype-devel.{x86_64,i686} libjpeg-turbo-devel.{x86_64,i686} libtiff-devel.{x86_64,i686} fontconfig-devel.{x86_64,i686} libglvnd-devel.{x86_64,i686} mesa-libGL-devel.{x86_64,i686} mesa-libEGL-devel.{x86_64,i686} libxml2-devel libbsd-devel  android-tools -y
+: 1574554100:0;cd Apps
+: 1574554105:0;git clone --recursive https://github.com/darlinghq/darling.git
+: 1574557333:0;one.
+: 1574557338:0;Cloning into '/home/eisenulfr/Apps/darling/src/external/libpthread'...
+: 1574557338:0;remote: Enumerating objects: 225, done.        
+: 1574557339:0;remote: Total 225 (delta 0), reused 0 (delta 0), pack-reused 225        
+: 1574557339:0;Receiving objects: 100% (225/225), 250.04 KiB | 288.00 KiB/s, done.
+: 1574557340:0;Resolving deltas: 100% (76/76), done.
+: 1574557340:0;Cloning into '/home/eisenulfr/Apps/darling/src/external/libtelnet'...
+: 1574557340:0;remote: Enumerating objects: 34, done.        
+: 1574557341:0;remote: Total 34 (delta 0), reused 0 (delta 0), pack-reused 34        
+: 1574557441:0;git clone --recursive https://github.com/darlinghq/darling.git
+: 1574557454:0;cd darling
+: 1574557466:0;ls
+: 1574558255:0;mkdir build && cd build
+: 1574558292:0;cmake ..
+: 1574558399:0;make
+: 1574597505:0;make install
+: 1574598194:0;sudo make install
+: 1574598637:0;make lkm
+: 1574598963:0;cd ..
+: 1574598968:0;ls
+: 1574598980:0;ls Developer
+: 1574598987:0;cd ..
+: 1574598992:0;git clone --recursive https://github.com/darlinghq/darling.git
+: 1574599000:0;rm -rf darling
+: 1574599018:0;sudo rm -rf darling
+: 1574599106:0;git clone --recursive https://github.com/darlinghq/darling.git
+: 1574608703:0;cd Apps
+: 1574608705:0;git clone --recursive https://github.com/darlinghq/darling.git
+: 1574608710:0;rm darling -r
+: 1574608714:0;rm darling -rf
+: 1574608738:0;git clone --recursive https://github.com/darlinghq/darling.git
+: 1574609660:0;'/home/eisenulfr/Projects/Github/hireme' 
+: 1574610894:0;cat ~/.ssh/id_rsa.pub
+: 1574610995:0;git clone git@github.com:moughamir/todo.git
+: 1574611023:0;cd todo
+: 1574611029:0;npm init
+: 1574611053:0;npm i
+: 1574611571:0;nvim
+: 1574611641:0;cd
+: 1574611646:0;curl -fLo ~/.vim/autoload/plug.vim --create-dirs \\
+    https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
+: 1574611686:0;vim .vimrc
+: 1574613418:0;sudo dnf copr enable gagbo/kitty-latest
+: 1574613598:0;vim .vimrc
+: 1574613761:0;spirce ~/.zshrc
+: 1574613794:0;vim .vimrc
+: 1574613986:0;sudo dnf --refresh install kitty
+: 1574614088:0;vim .vimrc
+: 1574614262:0;mkdir -p ~/.vim/pack/tpope/start
+: 1574614269:0;cd ~/.vim/pack/tpope/start
+: 1574614279:0;it clone https://tpope.io/vim/commentary.git
+: 1574614284:0;git clone https://tpope.io/vim/commentary.git
+: 1574614299:0;vim -u NONE -c "helptags commentary/doc" -c q
+: 1574614304:0;vim .vimrc
+: 1574614335:0;ls -a
+: 1574614343:0;cd
+: 1574614346:0;vim .vimrc
+: 1574614586:0;git clone https://github.com/pangloss/vim-javascript.git ~/.vim/pack/vim-javascript/start/vim-javascript
+: 1574614594:0;vim .vimrc
+: 1574614630:0;vim ~.vimrc
+: 1574614633:0;vim ~/.vimrc
+: 1574615686:0;npm install -g prettier
+: 1574615733:0;vim ~/.vimrc
+: 1574615964:0;npm install -g javascript-typescript-langserver
+: 1574616023:0;vim ~/.vimrc
+: 1574616655:0;npm install -g eslint
+: 1574616953:0;pip install --user pynvim
+: 1574616991:0;vim ~/.vimrc
+: 1574617161:0;gedit ~/.vimrc
+: 1574617276:0;gvim ~/.vimrc
+: 1574617544:0;vim ~/.vimrc
+: 1574617655:0;gvim ~/.vimrc
+: 1574618928:0;gvim .zshrc
+: 1574618998:0;dnfi bat
+: 1574619045:0;vim .zshrc
+: 1574619601:0;cat ~/.ssh/id_rsa.pub
+: 1574619622:0;cat ~/Projects/Andiro/landing/src/index.js
+: 1574619693:0;vim ~/.vimrc
+: 1574619737:0;vim ~/.zshrc
+: 1574619832:0;kitty --help
+: 1574619886:0;kitty +kitten icat Pictures/variety-copied-wallpaper-e717ee6a084cb4f04008fedddbd5ba10.jpg
+: 1574619905:0;vim ~/.zshrc
+: 1574619945:0;icat Pictures/Wallpapers/Solarized/solarized-wallpaper-fedora.png
+: 1574619949:0;source .zshrc
+: 1574619964:0;icat Pictures/Wallpapers/Solarized/solarized-wallpaper-fedora.png
+: 1574620119:0;ðƒ¿ƒ¸€
+: 1574620180:0;kitty +kitten panel sh -c 'printf "\n\n\nHello, world."; sleep 5s\
+
+: 1574620257:0;dnfu -y 
+: 1574620344:0;vim Projects/Andiro/landing
+: 1574620504:0;nvm
+: 1574620530:0;nvm --help
+: 1574620536:0;nvm upgrade
+: 1574620570:0;echo "ðƒ¿ƒ¸¸"
+: 1574625444:0;dnfu -y 
+: 1574625591:0;kitty --help
+: 1574625670:0;vim .config/kitty/kitty.conf
+: 1574625897:0;vim .zshrc
+: 1574625950:0;vim .oh-my-zsh/custom/themes/powerlevel10k/powerlevel10k.zsh-theme
+: 1574625978:0;vim .oh-my-zsh/custom/themes/powerlevel10k/config/p10k-rainbow.zsh
+: 1574626065:0;ll
+: 1574626076:0;cat .p10k.zsh
+: 1574626563:0;vim .config/kitty/kitty.conf
+: 1574627551:0;cat Projects/Andiro/landing/src/index.js
+: 1574627557:0;cat Projects/Andiro/landing/src/App.js
+: 1574627567:0;cat Projects/Andiro/landing/src/App.test.js
+: 1574627581:0;vim Projects/Andiro/landing/src/App.test.js
+: 1574627611:0;vim .config/kitty/kitty.conf
+: 1574627746:0;Pj
+: 1574627755:0;pj Github
+: 1574627760:0;cd hireme
+: 1574627768:0;vim .
+: 1574627779:0;cd todo
+: 1574627785:0;vim --help
+: 1574627818:0;vim .
+: 1574627875:0;eslint --init
+: 1574628074:0;vim .
+: 1574628275:0;prettier --help
+: 1574628301:0;vim ~/.vimrc
+: 1574628448:0;vlc ~/Videos/Screencast/Peek\ 2019-11-24\ 21-45.mp4
+: 1574628479:0;cvlc ~/Videos/Screencast/Peek\ 2019-11-24\ 21-45.mp4
+: 1574628805:0;vim ~/.vimrc
+: 1574629375:0;mkdir -p ~/.vim/pack/airblade/start
+: 1574629405:0;cd ~/.vim/pack/airblade/start
+: 1574629413:0;git clone https://github.com/airblade/vim-gitgutter.git
+: 1574629425:0;vim -u NONE -c "helptags vim-gitgutter/doc" -c q
+: 1574629441:0;cd
+: 1574629445:0;vim ~/.vimrc
+: 1574631144:0;bg
+: 1574631154:0;vim ~/.vimrc
+: 1574631202:0;exit
+: 1574631208:0;bg 15913
+: 1574631217:0;continue
+: 1574631222:0;continue 15913
+: 1574631271:0;fg
+: 1574631281:0;vim ~/.vimrc
+: 1574631302:0;bg
+: 1574631313:0;vim ~/.vimrc
+: 1574635073:0;vim Projects/Andiro/landing/
+: 1574635133:0;vim .config/kitty/kitty.conf
+: 1574635738:0;cd Apps
+: 1574635741:0;cd darling
+: 1574635749:0;mkdir build && cd build
+: 1574635756:0;cmake ..
+: 1574635888:0;whereis llvm
+: 1574635902:0;dnfi llvm-devel
+: 1574636081:0;whereis llvm
+: 1574636086:0;cmake ..
+: 1574636259:0;time make
+: 1574670302:0;pj
+: 1574670316:0;Github/hireme
+: 1574670333:0;vim .
+: 1574670347:0;cd todo
+: 1574670349:0;vim .
+: 1574670432:0;gvim .
+: 1574670442:0;npm start
+: 1574672522:0;npm i -g import-js
+: 1574672606:0;vim ~/.vimrc
+: 1574672757:0;cd ~/Apps
+: 1574672761:0;git clone https://github.com/facebook/watchman.git -b v4.9.0 --depth 1
+: 1574672793:0;cd watchman
+: 1574672807:0;dnfi libfolly
+: 1574672964:0;dnfs libfolly
+: 1574673448:0;cd Apps
+: 1574673509:0;wget https://github.com/google/googletest/archive/release-1.8.0.tar.gz && \\
+tar zxf release-1.8.0.tar.gz && \\
+rm -f release-1.8.0.tar.gz && \\
+cd googletest-release-1.8.0 && \\
+cmake . && \\
+make && \\
+sudo make install
+: 1574673619:0;git clone https://github.com/fmtlib/fmt.git && cd fmt
+: 1574673645:0;mkdir _build && cd _build
+: 1574673651:0;cmake ..
+: 1574673667:0;make -j$(nproc)
+: 1574674619:0;sudo make install
+: 1574674768:0;cd
+: 1574674771:0;cd Apps
+: 1574674778:0;wget https://github.com/facebook/folly/archive/v2019.11.11.00.tar.gz
+: 1574674797:0;tar zxf v2019.11.11.00.tar.gz
+: 1574674802:0;ls
+: 1574674821:0;rm keybase_amd64.rpm v2019.11.11.00.tar.gz
+: 1574674825:0;cd folly-2019.11.11.00
+: 1574674858:0;mkdir _build && cd _build
+: 1574674864:0;cmake ..
+: 1574674922:0;cat CMakeFiles/CMakeError.log
+: 1574675085:0;cd ../..
+: 1574675090:0;wget https://dl.bintray.com/boostorg/release/1.71.0/source/boost_1_71_0.tar.bz2
+: 1574675345:0;tar --bzip2 -xf boost_1_71_0.tar.bz2
+: 1574675523:0;dnfs libpthread
+: 1574675543:0;cd boost_1_71_0
+: 1574675544:0;ls
+: 1574675557:0;cat INSTALL
+: 1574675577:0;ls tools
+: 1574675588:0;ls libs
+: 1574675597:0;ls boo
+: 1574675601:0;ls boost
+: 1574675636:0;dnfs libpthread
+: 1574675641:0;dnfs pthread
+: 1574675717:0;dnfs boost
+: 1574675730:0;cat | pth
+: 1574675741:0;cat
+: 1574675747:0;ls | grep pth
+: 1574675755:0;ls boost| grep pth
+: 1574675767:0;ls boost | grep sw
+: 1574675770:0;ls boost | grep p
+: 1574675773:0;ls boost | grep pt
+: 1574675784:0;tree . | grep pth
+: 1574675796:0;tree . | grep pthread
+: 1574675930:0;dnfi boost boost-build boost-jam
+: 1574676115:0;ls
+: 1574676164:0;cd Projects
+: 1574676171:0;mkdir boostTest
+: 1574676173:0;cd boostTest
+: 1574676202:0;vim LetUseBoost.cpp
+: 1574676461:0;c++ -I ~/Apps/boost_1_71_0 LetUseBoost.cpp -o LetuseBoost
+: 1574676481:0;vim LetUseBoost.cpp
+: 1574676558:0;c++ -I ~/Apps/boost_1_71_0 LetUseBoost.cpp -o LetuseBoost
+: 1574676583:0;echo "ðƒ¿ƒ¸¸" | ./LetuseBoost
+: 1574676594:0;echo 1 2 3 | ./LetuseBoost
+: 1574676609:0;echo 1 2 3 ðƒ¿ƒ¸€| ./LetuseBoost
+: 1574676617:0;echo 3 6 9| ./LetuseBoost
+: 1574676649:0;./bootstrap.sh --help
+: 1574676809:0;sudo ./bootstrap.sh
+: 1574676898:0;sudo ./b2 install
+: 1574680483:0;cd Apps/boost_1_71_0
+: 1574680496:0;sudo ./bootstrap.sh
+: 1574680538:0;sudo ./b2 install
+: 1574680785:0;cd ../folly-2019.11.11.00
+: 1574680792:0;cd _build
+: 1574680818:0;cd Projects
+: 1574680834:0;c++ -I LetUseBoost.cpp -o LetuseBoostD
+: 1574680841:0;c++ LetUseBoost.cpp -o LetuseBoostD
+: 1574680846:0;c++ ./LetUseBoost.cpp -o LetuseBoostD
+: 1574680852:0;cd boostTest
+: 1574680860:0;c++ ./LetUseBoost.cpp -o LetuseBoostD
+: 1574680875:0;echo 3 6 9| ./LetuseBoost
+: 1574680877:0;echo 3 6 9| ./LetuseBoostD
+: 1574680888:0;echo 3 6 9| time ./LetuseBoostD
+: 1574680896:0;echo 3 6 9| time ./LetuseBoost
+: 1574680900:0;echo 3 6 9| time ./LetuseBoostD
+: 1574680903:0;echo 3 6 9| time ./LetuseBoost
+: 1574680914:0;time echo 3 6 9| ./LetuseBoost
+: 1574680919:0;time echo 3 6 9| ./LetuseBoostD
+: 1574680939:0;ls
+: 1574680949:0;cmake ..
+: 1574680972:0;make
+: 1574681084:0;cd ../..
+: 1574681087:0;git clone https://github.com/fmtlib/fmt.git && cd fmt
+: 1574681126:0;cd ../googletest-release-1.8.0
+: 1574681245:0;cmake -DCMAKE_INCLUDE_PATH=~/Apps/boost_1_71_0 .
+: 1574681270:0;cmake -DCMAKE_LIBRARY_PATH=~/Apps/boost_1_71_0 .
+: 1574681292:0;cmake .
+: 1574681300:0;make
+: 1574681307:0;sudo make install 
+: 1574681328:0;cd ../fmt
+: 1574681342:0;ls
+: 1574681356:0;mkdir _build && cd _build
+: 1574681380:0;cmake -DCMAKE_LIBRARY_PATH=~/Apps/boost_1_71_0 ..
+: 1574681403:0;cmake -DCMAKE_INCLUDE_PATH=~/Apps/boost_1_71_0 ..
+: 1574681412:0;ls
+: 1574681420:0;rm ./* -rf
+: 1574681427:0;cmake -DCMAKE_INCLUDE_PATH=~/Apps/boost_1_71_0 ..
+: 1574681470:0;make -j$(nproc)
+: 1574682015:0;sudo make install
+: 1574682031:0;cd ../../folly-2019.11.11.00
+: 1574682042:0;rm _build -rf
+: 1574682047:0;mkdir _build && cd _build
+: 1574682053:0;cmake -DCMAKE_INCLUDE_PATH=~/Apps/boost_1_71_0 ..
+: 1574682081:0;make -j$(nproc)
+: 1574682176:0;cd ../..
+: 1574682178:0;git clone https://github.com/google/double-conversion.git
+: 1574682246:0;cd double-conversion
+: 1574682290:0;cmake -DCMAKE_INCLUDE_PATH=~/Apps/boost_1_71_0 -DBUILD_SHARED_LIBS=ON . 
+: 1574682308:0;make -j $(nproc)
+: 1574682318:0;sudo make install
+: 1574682338:0;../folly-2019.11.11.00/_build
+: 1574682369:0;cmake -DCMAKE_INCLUDE_PATH=~/Apps/boost_1_71_0 configure ..
+: 1574682498:0;dnfs libevent
+: 1574682628:0;dnfi libevent libevent-devel
+: 1574682724:0;cd ../..
+: 1574682751:0;git clone https://github.com/gflags/gflags
+: 1574682762:0;cd gflags
+: 1574682766:0;cat INSTALL.md
+: 1574682786:0;mkdir build && cd build
+: 1574682790:0;cmake -DCMAKE_INCLUDE_PATH=~/Apps/boost_1_71_0 configure ..
+: 1574682806:0;make
+: 1574682850:0;sudo make install
+: 1574682856:0;cd ../..
+: 1574682865:0;cd folly-2019.11.11.00/_build
+: 1574682872:0;cmake -DCMAKE_INCLUDE_PATH=~/Apps/boost_1_71_0 configure ..
+: 1574682905:0;...
+: 1574682928:0;git clone https://github.com/google/glog.git
+: 1574682937:0;cd glog
+: 1574682956:0;./autogen.sh && ./configure && make && sudo make install
+: 1574682968:0;ls
+: 1574682985:0;cat INSTALL
+: 1574683023:0;./autogen.sh && ./configure && make && sudo make install
+: 1574683031:0;dnfs autoreconf
+: 1574683076:0;dnfi dh-autoreconf
+: 1574683239:0;./autogen.sh && ./configure && make && sudo make install
+: 1574683359:0;dnfs libssl
+: 1574683379:0;./configure && make && sudo make install
+: 1574683399:0;dnfs openssl
+: 1574683454:0;dnfi openssl-devel
+: 1574683491:0;dnfs libgoogle
+: 1574683523:0;dnfs glog
+: 1574683568:0;dnfi glog glog-devel
+: 1574683620:0;cd ../folly-2019.11.11.00/_build
+: 1574683634:0;cmake -DCMAKE_INCLUDE_PATH=~/Apps/boost_1_71_0 configure ..
+: 1574683656:0;dnfs lz4
+: 1574683694:0;dnfi lz4-libs lz4-devel
+: 1574683746:0;dnfi lz4
+: 1574683780:0;dnfs lzma-dev
+: 1574683803:0;dnfs lzma
+: 1574683858:0;dnfi xz-devel xz xz-libs
+: 1574683894:0;dnfs zstd
+: 1574683940:0;dnfi zstd libzstd libzstd-devel
+: 1574683979:0;dnfs snappy
+: 1574684015:0;dnfs snappy snappy-devel
+: 1574684036:0;dnfi snappy snappy-devel
+: 1574684084:0;dnfs dwarf
+: 1574684128:0;dnfi libdwarf-devel
+: 1574684174:0;dnfs ibirty
+: 1574684183:0;dnfs iberty
+: 1574684233:0;dnfs libiberty
+: 1574684255:0;dnfs libaio
+: 1574684285:0;dnfi libaio-devel
+: 1574684325:0;dnfs liburing
+: 1574684342:0;dnfs uring
+: 1574684393:0;dnfs sodiul
+: 1574684398:0;dnfs sodium
+: 1574684432:0;dnfi libsodium libsodium_devel
+: 1574684444:0;dnfi libsodium-devel
+: 1574684482:0;ls
+: 1574684497:0;rm ./* -rf
+: 1574684511:0;cmake -DCMAKE_INCLUDE_PATH=~/Apps/boost_1_71_0 ..
+: 1574684567:0;make -j $(nproc)
+: 1574685368:0;dnfs unwind
+: 1574685449:0;dnfi libunwind-devel
+: 1574685508:0;cmake -DCMAKE_INCLUDE_PATH=~/Apps/boost_1_71_0 configure ..
+: 1574685519:0;cmake -DCMAKE_INCLUDE_PATH=~/Apps/boost_1_71_0 ..
+: 1574685533:0;make -j $(nproc)
+: 1574686040:0;sudo make install
+: 1574686057:0;cd ../..
+: 1574686058:0;ls
+: 1574686068:0;cd watchman
+: 1574686069:0;ls
+: 1574686075:0;cat README.markdown
+: 1574686125:0;./autogen.sh
+: 1574686151:0;./configure
+: 1574686184:0;make
+: 1574687174:0;dnfu -y
+: 1574695871:0;mv Downloads/OpenSignature-0.2.1-src.tar.bz2 Apps
+: 1574695874:0;cd Apps
+: 1574695878:0;extract OpenSignature-0.2.1-src.tar.bz2
+: 1574695881:0;cd OpenSignature-0.2.1
+: 1574695882:0;ls
+: 1574695893:0;./config
+: 1574695902:0;dnfs qmake
+: 1574696092:0;dnfi qconf
+: 1574696099:0;dnfi qconf -y 
+: 1574696176:0;mv Downloads/master-pdf-editor-5.4.38-qt5-all.amd64.tar.gz Apps
+: 1574696179:0;cd Apps
+: 1574696184:0;extract master-pdf-editor-5.4.38-qt5-all.amd64.tar.gz
+: 1574696197:0;./config
+: 1574696203:0;qmake
+: 1574696210:0;dnfs qt5
+: 1574696215:0;cd master-pdf-editor-5
+: 1574696216:0;ls
+: 1574696231:0;./masterpdfeditor5.sh
+: 1574696641:0;cd Documents
+: 1574696647:0;mkdir signatures
+: 1574696649:0;cd signatures
+: 1574696662:0;openssl genrsa 2048 > private.pem
+: 1574696685:0;openssl req -x509 -new -key private.pem -out public.pem
+: 1574696777:0;openssl pkcs12 -export -in public.pem -inkey private.pem -out moughamir-cert.pfx
+: 1574697146:0;mv ~/Downloads/FoxitReader.enu.setup.2.4.4.0911.x64.run.tar.gz ../
+: 1574697149:0;cd ..
+: 1574697156:0;extract FoxitReader.enu.setup.2.4.4.0911.x64.run.tar.gz
+: 1574697164:0;ls
+: 1574697171:0;./FoxitReader.enu.setup.2.4.4.0911\(r057d814\).x64.run
+: 1574697185:0;sudo ./FoxitReader.enu.setup.2.4.4.0911\(r057d814\).x64.run
+: 1574700770:0;dnfu
+: 1574700900:0;pj Github/hireme/todo
+: 1574700910:0;gvim .
+: 1574701062:0;dnfs chromedrive
+: 1574701166:0;dnfi chromedriver
+: 1574701341:0;chrome-gnome-shell --help
+: 1574701349:0;chrome-gnome-shell -h
+: 1574701358:0;chrome-gnome-shell --help-all
+: 1574701377:0;whereis chromedriver
+: 1574701386:0;chromedriver --help
+: 1574701596:0;chromedriver http://omnizya.com
+: 1574701639:0;dnfs chrome
+: 1574701806:0;dnfi chrome-remote-desktop  fedora-user-agent-chrome fedora-chromium-config webexte,sion-token-signing
+: 1574701848:0;dnfi chrome-remote-desktop  fedora-user-agent-chrome fedora-chromium-config webextension-token-signing
+: 1574702948:0;dnfs chromium
+: 1574703060:0;dnfi chromium-freeworld
+: 1574703392:0;source ~/.zshrc
+: 1574703428:0;chromium-freeworld --help
+: 1574703483:0;BROWSER=chromium-freeworld npm start
+: 1574703780:0;pj Github/hireme/todo
+: 1574703783:0;codium .
+: 1574705752:0;codium --help
+: 1574705813:0;codium --disbale-extensions .
+: 1574705854:0;codium --disable-extensions .
+: 1574705884:0;dnfu
+: 1574705975:0;codium --disable-extensions --disable-gpu --prof-startup .
+: 1574706078:0;codium  .
+: 1574706092:0;standard --fix
+: 1574706160:0;~/.yarn/bin/standard --fix
+: 1574706266:0;codium --disable-extensions .
+: 1574706356:0;codium --disable-gpu .
+: 1574710846:0;systemctl status powerline.service 
+: 1574711109:0;sudo systemctl start powerline.service 
+: 1574711170:0;whereis plex
+: 1574711233:0;sudo service status plexmediaserver.pms-web
+: 1574711252:0;sudo service plexmediaserver.pms-web status
+: 1574711269:0;sudo systemctl stop plexmediaserver.pms-web 
+: 1574711273:0;sudo systemctl stop plexmediaserver
+: 1574711831:0;dnfu
+: 1574712030:0;BROWSER=chromium-freeworld codium ~/Projects/Github/hireme/todo
+: 1574712240:0;npm i -g standard
+: 1574713284:0;BROWSER=chromium-freeworld npm start
+: 1574713304:0;BROWSER=chromium-freeworld
+: 1574713312:0;pj
+: 1574713320:0;cd Github/hireme/todo
+: 1574713323:0;BROWSER=chromium-freeworld npm start
+: 1574713710:0;git push
+: 1574716939:0;dnfs qtstudio
+: 1574717092:0;dnfs creator
+: 1574717303:0;dnfs qt5
+: 1574717771:0;dnfs qt3d
+: 1574717914:0;dnfi vlmc vokoscreen qt-creator qt-creator-data qt-creator-translations qt-creator-doc qt5 qt5-devel qt5ct qt5-base qt5-qt3d qt5-qt3d-devel qt5-qt3d-examples
+: 1574717962:0;dnfi vlmc vokoscreen qt-creator qt-creator-data qt-creator-translations qt-creator-doc qt5 qt5-devel qt5ct  qt5-qt3d qt5-qt3d-devel qt5-qt3d-examples
+: 1574718115:0;./masterpdfeditor5.sh
+: 1574718158:0;cd ..
+: 1574718160:0;ls
+: 1574718176:0;rm FoxitReader.enu.setup.2.4.4.0911*
+: 1574718187:0;extract wireshark-3.0.6.tar.xz
+: 1574718216:0;cd wireshark-3.0.6
+: 1574718217:0;ls
+: 1574718226:0;cat README.
+: 1574718232:0;cat README.linux
+: 1574718256:0;cat README.md
+: 1574718301:0;ls
+: 1574718315:0;cat INSTALL
+: 1574718340:0;cd ..
+: 1574718341:0;ls
+: 1574718345:0;extract skipfish-2.10b.tgz
+: 1574718348:0;cd skipfish-2.10b
+: 1574718350:0;ls
+: 1574718357:0;cat ./README
+: 1574718388:0;ls
+: 1574718397:0;make
+: 1574718414:0;cd ..
+: 1574718415:0;ls
+: 1574718431:0;unzip avocode-4.0.1-linux.zip
+: 1574718472:0;cd jls
+: 1574718473:0;ls
+: 1574718492:0;./jls-linux-amd64 --help
+: 1574718502:0;ls script
+: 1574718509:0;cat script/init_script_linux
+: 1574718537:0;script/init_script_linux
+: 1574718560:0;./jls-linux-amd64
+: 1574718820:0;./jls-linux-amd64 --help
+: 1574718837:0;sudo ./jls-linux-amd64 -port 8092
+: 1574718939:0;cat script/init_script_linux
+: 1574720269:0;pj Github/hireme/todo
+: 1574720274:0;vim .
+: 1574723963:0;ls
+: 1574723972:0;./config
+: 1574723981:0;dnfs qmake
+: 1574724080:0;dnfi qconf
+: 1574724154:0;dnfs qt make
+: 1574724207:0;dnfs qt5 make
+: 1574724243:0;qconf-qt5
+: 1574724251:0;./configure
+: 1574724270:0;./config
+: 1574724380:0;dnfi mingw64-qt5-qmake
+: 1574724429:0;alias qmake=qmake-qt5
+: 1574724435:0;qmake --h
+: 1574724439:0;./config
+: 1574724462:0;export qmake=qmake-qt5
+: 1574724467:0;./config
+: 1574724545:0;sudo ln -swich qmake-qt5 /usr/bin/qmake
+: 1574724572:0;sudo ln -swhich qmake-qt5 /usr/bin/qmake
+: 1574724612:0;ln --help
+: 1574724644:0;sudo ln -s qmake-qt5 /usr/bin/qmake
+: 1574724649:0;./config
+: 1574724659:0;make
+: 1574724673:0;dnfs opensc
+: 1574724713:0;dnfi opensc
+: 1574724770:0;opensc-tool
+: 1574724776:0;make
+: 1574724781:0;./config
+: 1574724795:0;dnfs opensc
+: 1574724841:0;dnfs smart card
+: 1574724988:0;ls
+: 1574724995:0;ls lib
+: 1574725000:0;ls src
+: 1574725003:0;ls src/lib
+: 1574725019:0;cd ..
+: 1574725074:0;git clone https://github.com/OpenSC/OpenSC.git
+: 1574725134:0;cd OpenS
+: 1574725138:0;cd OpenSC
+: 1574725141:0;ls
+: 1574725150:0;./bootstrap
+: 1574725293:0;dnfi readline-devel openssl-devel libxslt docbook-style-xsl pcsc-lite-devel automake autoconf libtool gcc zlib-devel
+: 1574725392:0;./bootstrap
+: 1574725511:0;./configure --prefix=/usr --sysconfigdir=/etc/opensc
+: 1574725521:0;./configure --prefix=/usr --sysconfdir=/etc/opensc
+: 1574725557:0;make
+: 1574726670:0;sudo make install
+: 1574770344:0;cd ..
+: 1574770349:0;cd OpenSignature-0.2.1
+: 1574770351:0;ls
+: 1574770362:0;./configure
+: 1574770367:0;./config
+: 1574770387:0;make
+: 1574781955:0;BROWSER=chromium-freeworld codium .
+: 1574782124:0;vim .
+: 1574784189:0;BROWSER=chromium-freeworld npm start
+: 1574790883:0;vim .
+: 1574791757:0;vim src/components/Tasks.jsx
+: 1574791886:0;BROWSER=chromium-freeworld npm build
+: 1574791905:0;BROWSER=chromium-freeworld npm run build
+: 1574791919:0;standard --fix
+: 1574791947:0;standard --fix .
+: 1574791998:0;BROWSER=chromium-freeworld npm start
+: 1574793314:0;npm i --save-dev redux-devtools-extension
+: 1574793622:0;vim src/store/index.js
+: 1574794075:0;vim src/store/actions.js
+: 1574794392:0;vim src/components/Tasks.jsx
+: 1574796513:0;fg
+: 1574797091:0;codium .
+: 1574801251:0;BROWSER=chromium-freeworld npm start
+: 1574805887:0;git add .
+: 1574805895:0;git commit --amend
+: 1574805918:0;git push --force
+: 1574822876:0;BROWSER=chromium-freeworld npm start
+: 1574869806:0;codium .
+: 1574870025:0;node
+: 1574870061:0;BROWSER=chromium-freeworld npm start
+: 1574872943:0;npm install react-autosuggest --save
+: 1574873903:0;BROWSER=chromium-freeworld npm start
+: 1574874826:0;npx react-codemod rename-unsafe-lifecycles
+: 1574875510:0;git status
+: 1574875727:0;BROWSER=chromium-freeworld npm start
+: 1574896820:0;dnfu
+: 1574898974:0;cd
+: 1574898979:0;gpg --keyserver hkps://keys.openpgp.org --recv-keys A9AB5AB778FA5C3522FD0378F82F4B16DEC408F8
+: 1574899163:0;gpg --fingerprint A9AB5AB778FA5C3522FD0378F82F4B16DEC408F8
+: 1574899192:0;gpg --edit-key A9AB5AB778FA5C3522FD0378F82F4B16DEC408F8
+: 1574899245:0;cd Downloads
+: 1574899283:0;wget https://weechat.org/files/src/weechat-2.6.tar.xz
+: 1574899320:0;wget https://weechat.org/files/src/weechat-2.6.tar.xz.asc
+: 1574899348:0;gpg --verify weechat-2.6.tar.xz.asc weechat-2.6.tar.xz
+: 1574899383:0;extract weechat-2.6.tar.xz
+: 1574899394:0;cd weechat-2.6
+: 1574899406:0;ls
+: 1574899419:0;./autogen.sh
+: 1574899502:0;cat README.adoc
+: 1574899551:0;mkdir build
+: 1574899554:0;cd build
+: 1574899562:0;cmake ..
+: 1574899584:0;cat ../README.adoc
+: 1574902042:0;dnfs libgcrypt
+: 1574903050:0;dnfi libgcrypt libgcrypt-devel
+: 1574903409:0;cmake ..
+: 1574903499:0;sudo snap install green-recorder --edge
+: 1574903676:0;green-recorder
+: 1574903737:0;cd ../..
+: 1574903744:0;git clone https://github.com/SergioBenitez/Rocket
+: 1574903760:0;cd Rocket
+: 1574903767:0;git checkout v0.4.2
+: 1574903775:0;cd examples/hello_world
+: 1574903778:0;cargo run
+: 1574951663:0;dnfu
+: 1574951842:0;sudo reboot now
+: 1574955158:0;cd Downloads/weechat-2.6
+: 1574955161:0;cat README.adoc
+: 1574955187:0;cd build
+: 1574955190:0;cmake ..
+: 1574955262:0;dnfs libcurl
+: 1574955368:0;dnfi libcurl-devel libcurl
+: 1574955452:0;cmake ..
+: 1574955483:0;dnfs libphp7
+: 1574955512:0;dnfs php7
+: 1574955544:0;dnfs php
+: 1574955695:0;dnfi php-devel
+: 1574956575:0;cmake ..
+: 1574956599:0;php
+: 1574956620:0;php --version
+: 1574956681:0;cat ../README.adoc
+: 1574956701:0;dnfs libv8 
+: 1574956718:0;dnfs v8 
+: 1574956755:0;dnfi v8-devel
+: 1574956989:0;dnfs gnutls,
+: 1574956995:0;dnfs gnutls ca-certificates\
+
+: 1574957013:0;dnfs gnutls\
+
+: 1574957034:0;dnfs ca-certificates\
+
+: 1574957081:0;dnfi ca-certificates gnutls gnutls-devel gnutls-utils
+: 1574957156:0;cmake ..
+: 1574957191:0;make
+: 1574957294:0;ls
+: 1574957437:0;cd ??
+: 1574957441:0;cdc ..
+: 1574957443:0;cd ..
+: 1574957452:0;cd ????
+: 1574957454:0;cd ??
+: 1574957457:0;cd ..???
+: 1574957462:0;..
+: 1574957474:0;./autogen.sh --help
+: 1574957519:0;ls
+: 1574957534:0;cat README.adoc
+: 1574957565:0;ls
+: 1574957573:0;make
+: 1574957580:0;./config
+: 1574957583:0;./configure
+: 1574957649:0;make
+: 1574957847:0;dnfr v8-devel
+: 1574957876:0;cd build
+: 1574957879:0;cmake ..
+: 1574957886:0;make
+: 1574957898:0;rm ./* -rf
+: 1574957904:0;ls
+: 1574957912:0;cmake ..
+: 1574957923:0;make
+: 1574958021:0;sudo make install
+: 1574958028:0;weechat
+: 1574958336:0;weechat --help
+: 1574958359:0;weechat-curses
+: 1574958457:0;cd ..
+: 1574958463:0;rm  weechat-2.6*
+: 1574958465:0;rm  weechat-2.6* -rf
+: 1574958467:0;ls
+: 1574958494:0;ls iso
+: 1574958501:0;mv *.iso iso
+: 1574958503:0;ls
+: 1574958508:0;ls iso
+: 1574958529:0;icat repository-open-graph-template.png
+: 1574958536:0;cd
+: 1574962305:0;anbox.android-settings
+: 1574962374:0;ical Downloads/poster11_3_223246.png
+: 1574962379:0;icat Downloads/poster11_3_223246.png
+: 1574962399:0;anbox.appmgr
+: 1574962929:0;anbox launch --package=org.anbox.appmgr --component=org.anbox.appmgr.AppViewActivity
+: 1574963118:0;ls Apps
+: 1574963137:0;cd Apps/darling
+: 1574963139:0;ls
+: 1574963149:0;cd build
+: 1574963151:0;ls
+: 1574963156:0;cmake ..
+: 1574963170:0;anbox system-info
+: 1574963240:0;id
+: 1574963259:0;tee /sys/module/fuse/parameters
+: 1574963280:0;tee /sys/module/fuse/parameters/max_user_bgreq 
+: 1574963321:0;snap refresh --edge --devmode anbox
+: 1574963654:0;anbox launch --package=org.anbox.appmgr --component=org.anbox.appmgr.AppViewActivity
+: 1574963688:0;mkdir -p Projects/youtube-enhancer-solarized
+: 1574963709:0;cd Projects/youtube-enhancer-solarized
+: 1574963725:0;touch theme.css
+: 1574963731:0;vim theme.css
+: 1574963746:0;sudo anbox launch --package=org.anbox.appmgr --component=org.anbox.appmgr.AppViewActivity
+: 1574964917:0;vim theme.css
+: 1574965218:0;make
+: 1574965391:0;anbox session-manager
+: 1574965414:0;anbox session-manager --help
+: 1574965451:0;anbox --help
+: 1574965480:0;anbox session-manager --help
+: 1574965504:0;anbox session-manager --gles-driver=translator
+: 1574965657:0;ls /var/lib/anbox
+: 1574965682:0;anbox container-manager --help
+: 1574965702:0;ls /snap
+: 1574965730:0;find android
+: 1574965747:0;anbox container-manager 
+: 1574965789:0;anbox container-manager --help
+: 1574965833:0;whereis snap
+: 1574965849:0;whereis android
+: 1574965854:0;ls .android
+: 1574965864:0;ls .android/avd
+: 1574965874:0;ls /snap
+: 1574965906:0;sudo systemctl status anbox
+: 1574965952:0;ls
+: 1574965957:0;ls snap
+: 1574965964:0;ls snap/anbox
+: 1574965970:0;ls snap/anbox/common
+: 1574965975:0;ls snap/anbox/common/runtime
+: 1574965980:0;ls snap/anbox/common/runtime/anbox
+: 1574965985:0;ls snap/anbox/common/runtime/anbox/input
+: 1574965991:0;ls snap/anbox/158
+: 1574965996:0;ls snap/anbox/185
+: 1574966019:0;find / -iname android
+: 1574966140:0;cd Apps
+: 1574966145:0;mkdir anbox
+: 1574966148:0;cd anbox
+: 1574966228:0;wget https://build.anbox.io/android-images/2018/07/19/android_amd64.img
+: 1574966462:0;rm ./* -rf
+: 1574966476:0;cd Documents
+: 1574966483:0;mkdir rustbook
+: 1574966485:0;cd rustbook
+: 1574966494:0;rustup docs --book
+: 1574966537:0;cargo new guessing_game
+: 1574966556:0;cmake -DCMAKE_INCLUDE_PATH=~/Apps/boost_1_71_0 ..
+: 1574966567:0;d guessing_game
+: 1574966578:0;ls
+: 1574966595:0;cd guessing_game
+: 1574966597:0;ls
+: 1574966603:0;vim .
+: 1574966828:0;anbox container-manager --help
+: 1574966845:0;make --help
+: 1574966871:0;cmake --help
+: 1574966890:0;anbox container-manager --android-image ~/Apps/anbox/android_amd64.img
+: 1574966907:0;anbox container-manager --android-image=~/Apps/anbox/android_amd64.img
+: 1574966997:0;snap info anbox
+: 1574967026:0;make
+: 1574967389:0;anbox --help
+: 1574967416:0;snap set --help
+: 1574967430:0;snap --help
+: 1574967441:0;snap get anbox
+: 1574967450:0;sudo snap get anbox
+: 1574967471:0;sudo snap get anbox bridge
+: 1574967477:0;sudo snap get anbox container
+: 1574967493:0;sudo snap get anbox rootfs-overlay
+: 1574967503:0;sudo snap get anbox software-rendering
+: 1574967516:0;sudo snap set anbox software-rendering.enable famse
+: 1574967523:0;sudo snap set anbox software-rendering.enable=false
+: 1574967534:0;sudo snap get anbox container
+: 1574967540:0;sudo snap get anbox container.network
+: 1574967547:0;sudo snap get anbox container.netwokr
+: 1574967595:0;snap get anbox.container-manager
+: 1574967602:0;sudosnap get anbox.container-manager
+: 1574967607:0;sudo get anbox.container-manager
+: 1574967613:0;sudo snap get anbox.container-manager
+: 1574967631:0;sudo snap restart anbox.container-manager
+: 1574967690:0;anbox.android-settings --help
+: 1574967770:0;sudo snap get anbox
+: 1574967783:0;snap help
+: 1574967789:0;snap list
+: 1574967799:0;snap list anbox
+: 1574967821:0;green-recorder
+: 1574967827:0;snap run green-recorder
+: 1574967837:0;snap run anbox
+: 1574967857:0;snap run anbox session-manager
+: 1574967866:0;snap run anbox session-manager --help
+: 1574967912:0;snap set anbox.container-manager.android-image=~/Apps/anbox/android_amd64.img
+: 1574967923:0;snap set anbox.container-manager android-image=~/Apps/anbox/android_amd64.img
+: 1574967928:0;sudo!
+: 1574967941:0;sudo snap set anbox.container-manager android-image=~/Apps/anbox/android_amd64.img
+: 1574967954:0;sudo snap set anbox container-manager.android-image=~/Apps/anbox/android_amd64.img
+: 1574967969:0;sudo snap get anbox
+: 1574967981:0;sudo snap get anbox container-manager
+: 1574967987:0;sudo snap get anbox container
+: 1574968083:0;snap help
+: 1574968092:0;snap services
+: 1574968107:0;snap services anbox.container-manager
+: 1574968114:0;snap services help
+: 1574968120:0;snap help services
+: 1574968141:0;snap services 
+: 1574968174:0;snap stop plexmediaserver.plexmediaserver
+: 1574968184:0;sudo snap stop plexmediaserver.plexmediaserver
+: 1574968219:0;sudo snap stop anbox.container-manger
+: 1574968226:0;anbox container-manager --android-image=~/Apps/anbox/android_amd64.img
+: 1574968370:0;snap alias
+: 1574968423:0;sudo snap stop --disable plexmediaserver.plexmediaserver
+: 1574968445:0;snap logs anbox
+: 1574968502:0;/var/snap/anbox
+: 1574968506:0;ls
+: 1574968541:0;ls 185
+: 1574968555:0;cd
+: 1574968585:0;ls /snap/anbox
+: 1574968595:0;ls /snap/anbox/185/bin
+: 1574968626:0;ls /var/snap/anbox/common
+: 1574968651:0;ls /snap/anbox/185
+: 1574968685:0;mv Apps/anbox/android_amd64.img /snap/anbox/185/android.img
+: 1574968693:0;sudo mv Apps/anbox/android_amd64.img /snap/anbox/185/android.img
+: 1574968709:0;sudo cp Apps/anbox/android_amd64.img /snap/anbox/185/android.img
+: 1574968725:0;ls /var/snap/anbox/185
+: 1574968740:0;snap connection anbox
+: 1574968745:0;snap connections anbox
+: 1574968855:0;snap logs anbox
+: 1574968891:0;cat /snap/anbox/185/bin/anbox-wrapper.sh
+: 1574968929:0;cat /snap/anbox/185/bin/container-manager.sh
+: 1574968967:0;cat /snap/anbox/185/bin/app-appmgr.sh
+: 1574968982:0;cat /snap/anbox/185/bin/anbox-wrapper.sh
+: 1574968989:0;cat /snap/anbox/185/bin/app-android-settings.sh
+: 1574969006:0;cat /snap/anbox/185/command-container-manager.wrapper
+: 1574969055:0;cat /snap/anbox/185/bin/anbox-wrapper.sh
+: 1574969069:0;cat /snap/anbox/185/bin/container-manager.sh
+: 1574969082:0;pwd Apps/anbox/android_amd64.img
+: 1574969101:0;/home/eisenulfr/Apps/anbox/android_amd64.img
+: 1574969120:0;vim /snap/anbox/185/bin/container-manager.sh
+: 1574969157:0;sudo vim /snap/anbox/185/bin/container-manager.sh
+: 1574969307:0;sudo vim /var/lib/snapd/snap/anbox/185/bin/container-manager.sh
+: 1574969432:0;snap info --verbos anbox
+: 1574969439:0;snap info --verbose anbox
+: 1574969506:0;snap list
+: 1574969896:0;cargo build
+: 1574969923:0;vim src/main.rs
+: 1574969956:0;cargo build
+: 1574969966:0;ls
+: 1574970003:0;./target
+: 1574970006:0;ls
+: 1574970013:0;debug
+: 1574970015:0;ls
+: 1574970021:0;./guessing_game
+: 1574970039:0;...
+: 1574970056:0;vim .
+: 1574970220:0;cargo build
+: 1574970274:0;vim .
+: 1574970565:0;snap help
+: 1574970579:0;snap info green-recorder
+: 1574970791:0;snap find
+: 1574970821:0;snap install slack
+: 1574970848:0;snap install obs-studio
+: 1574971165:0;pj
+: 1574971344:0;cd
+: 1574971351:0;cd Apps/watchman
+: 1574971353:0;ls
+: 1574971471:0;./autogen.sh
+: 1574972646:0;./configure
+: 1574972706:0;ls ..
+: 1574972715:0;ls ../folly-2019.11.11.00
+: 1574972721:0;ls ../folly-2019.11.11.00/folly
+: 1574972752:0;./configure --help
+: 1574972759:0;make
+: 1574973648:0;pj
+: 1574973694:0;pj Github/hireme/todo
+: 1574974188:0;dnfs neovim
+: 1574974521:0;dnfi neovim 
+: 1574974629:0;dnfi neovim python3-neovim
+: 1574974954:0;neovim .
+: 1574974963:0;nvim .
+: 1574975076:0;keybase
+: 1574975086:0;keybase login
+: 1574994453:0;dnfu
+: 1574994564:0;php --version
+: 1574994582:0;dnfu -y
+: 1574998382:0;cd /tmp
+: 1574998386:0;wget https://github.com/onivim/oni/releases/download/v0.3.6/Oni-0.3.6-x86_64-linux.rpm
+: 1574998518:0;dnfi ./Oni-0.3.6-x86_64-linux.rpm 
+: 1574999215:0;oni
+: 1574999241:0;dnfu
+: 1574999333:0;oni --help
+: 1574999337:0;cd
+: 1574999339:0;oni
+: 1574999345:0;nvim
+: 1574999351:0;oni
+: 1574999362:0;dnfr oni
+: 1574999537:0;mkdir -p ${XDG_CONFIG_HOME:=$HOME/.config}
+: 1574999546:0;ln -s ~/.vim $XDG_CONFIG_HOME/nvim
+: 1574999554:0;\
+ln -s ~/.vimrc $XDG_CONFIG_HOME/nvim/init.vim
+: 1574999559:0;nvim
+: 1574999704:0;mkdir -p .config/nvim
+: 1574999732:0;\
+\
+ln -s ~/.vimrc ~/.config/nvim/init.vim\
+
+: 1574999744:0;nvim
+: 1574999842:0;nvim ~/.config/nvim/init.vim
+: 1574999954:0;nvim
+: 1575000268:0;nvim ~/.config/nvim/init.vim
+: 1575000316:0;nvim
+: 1575000349:0;pip3 install --user neovim
+: 1575000381:0;nvim
+: 1575000404:0;nvim ~/.config/nvim/init.vim
+: 1575000416:0;nvim
+: 1575000502:0;nvim teston.py
+: 1575000576:0;cd Projects
+: 1575000584:0;mkdir testNvim
+: 1575000588:0;cd testNvim
+: 1575000603:0;nvim greeting.py
+: 1575000672:0;nvim persons.py
+: 1575000853:0;sudo yum install epel-release -y
+: 1575000893:0;dnfi fuse fuse-libs ack
+: 1575001018:0;nvim persons.py
+: 1575001107:0;ack --help
+: 1575001129:0;nvim persons.py
+: 1575001225:0;nvim ~/.config/nvim/init.vim
+: 1575001277:0;nvim
+: 1575001313:0;nvim persons.py
+: 1575001444:0;pip3 install --user pynvim
+: 1575001465:0;nvim ~/.config/nvim/init.vim
+: 1575001813:0;nvim .
+: 1575002122:0;cd ..
+: 1575002127:0;nvim .
+: 1575002148:0;nvim testNvim
+: 1575002421:0;nvim ~/.config/nvim/init.vim
+: 1575002467:0;nvim .
+: 1575002480:0;nvim testNvim
+: 1575002533:0;nvim ~/.config/nvim/init.vim
+: 1575002576:0;nvim testNvim
+: 1575002636:0;nvim testNvim/persons.py
+: 1575002759:0;nvim ~/.config/nvim/init.vim
+: 1575002790:0;nvim testNvim/persons.py
+: 1575002876:0;nvim ~/.config/nvim/init.vim
+: 1575004276:0;bg
+: 1575004279:0;nvim ~/.config/nvim/init.vim
+: 1575004283:0;vim ~/.config/nvim/init.vim
+: 1575004373:0;gedit ~/.config/nvim/init.vim
+: 1575004430:0;vim ~/.config/nvim/init.vim
+: 1575004441:0;nvim ~/.config/nvim/init.vim
+: 1575005493:0;mkdir -p ~/.config/nvim/pack/airblade/start
+: 1575005499:0;cd ~/.config/nvim/pack/airblade/start
+: 1575005506:0;git clone https://github.com/airblade/vim-gitgutter.git
+: 1575005514:0;nvim -u NONE -c "helptags vim-gitgutter/doc" -c q
+: 1575005524:0;nvim ~/.config/nvim/init.vim
+: 1575005606:0;cd
+: 1575005621:0;pj Github/hireme/todo
+: 1575005626:0;nvim .
+: 1575005792:0;whereis node
+: 1575005800:0;which node
+: 1575005845:0;nvim .
+: 1575005892:0;nvim ~/.config/nvim/init.vim
+: 1575006182:0;nvim +PlugInstall +UpdateRemotePlugins +qa
+: 1575006450:0;nvim .
+: 1575006773:0;nvim ~/.editorconfig
+: 1575007054:0;nvim .
+: 1575007096:0;nvim ~/.editorconfig
+: 1575007300:0;nvim .
+: 1575008075:0;node
+: 1575008607:0;git status
+: 1575008972:0;npm test
+: 1575009106:0;npm run build
+: 1575009114:0;npm run start
+: 1575036603:0;nvim .
+: 1575037298:0;pj Github/hireme/todo
+: 1575037302:0;npm start
+: 1575039054:0;nvim .
+: 1575048780:0;dnfu -y
+: 1575123443:0;dnfu
+: 1575126463:0;dnfu -y
+: 1575126702:0;vim
+: 1575126823:0;nvim
+: 1575126904:0;nvim ~/.config/nvim/init.vim
+: 1575126949:0;~/.config/nvim/plugged/LanguageClient-neovim/
+: 1575126950:0;ls
+: 1575126962:0;cat INSTALL.
+: 1575126965:0;cat install.sh
+: 1575126984:0;./install.sh
+: 1575127019:0;:q
+: 1575127022:0;ls
+: 1575127034:0;./bin/languageclient 
+: 1575127043:0;./bin/languageclient --help
+: 1575127052:0;./bin/languageclient -h
+: 1575127054:0;./bin/languageclient -V
+: 1575127061:0;cat install.sh
+: 1575127080:0;ls
+: 1575127087:0;cat INSTALL.md
+: 1575127220:0;javascript-typescript-stdio --help
+: 1575127238:0;javascript-typescript-langserver --help
+: 1575127263:0;rls
+: 1575127311:0;rustup component add rls --toolchain stable-x86_64-unknown-linux-gnu
+: 1575127352:0;whereis javascript-typescript-stdio
+: 1575127407:0;nvim ~/.config/nvim/init.vim
+: 1575127477:0;rls --help
+: 1575127643:0;nvim Projects/Github/hireme/todo
+: 1575127705:0;dnfs pyls
+: 1575127745:0;lynx
+: 1575127756:0;google react lang server
+: 1575128594:0;nvim makeDotFile.sh
+: 1575128649:0;cat makeDotFile.sh
+: 1575128656:0;chmod +x makeDotFile.sh
+: 1575128659:0;./makeDotFile.sh
+: 1575128667:0;tmux
+: 1575128710:0;nvim .tmux.conf
+: 1575128780:0;ls -al
+: 1575128800:0;ls dotfiles
+: 1575128812:0;mkdir dotfiles
+: 1575128817:0;ls dotfiles_old
+: 1575128825:0;rm dotfiles_old -r
+: 1575128842:0;./makeDotFile.sh
+: 1575128846:0;ls
+: 1575128849:0;ls -al
+: 1575128875:0;cat .vimrc
+: 1575128879:0;nvim
+: 1575128884:0;vim .
+: 1575128895:0;ls dotfiles
+: 1575128900:0;ls dotfiles_old
+: 1575128908:0;rm dotfiles dotfiles_old -r
+: 1575128934:0;mkdir  .dotfiles
+: 1575128937:0;cd .dotfiles
+: 1575128946:0;touch .tmux.conf
+: 1575128953:0;touch .zshrc
+: 1575128962:0;touch .zprofile
+: 1575128969:0;touch .yarnrc
+: 1575128984:0;touch .profile
+: 1575128999:0;touch .gitconfig
+: 1575129009:0;touch .bashrc
+: 1575129021:0;cp ../.editorconfig ./
+: 1575129042:0;cd ..
+: 1575129048:0;nvim makeDotFile.sh
+: 1575129114:0;nvim .dotfiles
+: 1575129544:0;sudo dnf copr enable pschyska/alacritty
+: 1575129594:0;dnfi alacritty -y
+: 1575129643:0;cd
+: 1575129648:0;cd .dotfiles
+: 1575129653:0;touch .alacritty.yml
+: 1575133611:0;alacritty
+: 1575133752:0;vim .alacritty.yml
+: 1575134625:0;alacritty --print-events
+: 1575134643:0;vim .alacritty.yml
+: 1575134700:0;ln -s .alacritty.yml ../
+: 1575134703:0;alacritty --print-events
+: 1575134713:0;cp .alacritty.yml ../
+: 1575134727:0;cp .alacritty.yml .alacritty.yml.orig
+: 1575134733:0;rm ../.alacritty.yml
+: 1575134737:0;cp .alacritty.yml .alacritty.yml.orig
+: 1575134752:0;cp .alacritty.yml ../.alacritty.yml
+: 1575134759:0;alacritty
+: 1575134913:0;gedit .alacritty.yml
+: 1575135376:0;cd ..
+: 1575135379:0;ls
+: 1575135395:0;ls -a
+: 1575135405:0;ls .config
+: 1575135417:0;ls .config/alacritty
+: 1575135425:0;cat .config/alacritty/alacritty.yml
+: 1575135470:0;cp .dotfiles/.alacritty.yml .config/alacritty/alacritty.yml
+: 1575135478:0;alacritty
+: 1575135522:0;gedit .config/alacritty/alacritty.yml
+: 1575135573:0;alacritty
+: 1575135581:0;gedit .config/alacritty/alacritty.yml
+: 1575135612:0;alacritty
+: 1575135685:0;cp .config/alacritty/alacritty.yml .dotfiles/.alacritty.yml
+: 1575135697:0;rm .alacritty.yml
+: 1575135706:0;rm .config/alacritty -rf
+: 1575135710:0;alacritty
+: 1575135725:0;rm .alacritty.yml
+: 1575135727:0;rm .config/alacritty -rf
+: 1575135744:0;cp .dotfiles/.alacritty.yml .alacritty.yml
+: 1575135747:0;alacritty
+: 1575136264:0;ZSH_THEME
+: 1575136274:0;tmux --help
+: 1575136277:0;tmux
+: 1575136613:0;ls
+: 1575136775:0;git clone https://github.com/tmux-plugins/tpm ~/.tmux/plugins/tpm
+: 1575136804:0;rm .tmux.conf
+: 1575136812:0;cp .dotfiles/.tmux.conf ./
+: 1575136818:0;nvim .tmux.conf
+: 1575136969:0;tmux source ~/.tmux.conf
+: 1575136977:0;tmux
+: 1575136991:0;tmux source ~/.tmux.conf
+: 1575137076:0;tmux
+: 1575137111:0;nvim ~/.tmux.conf
+: 1575137314:0;tmux
+: 1575137455:0;nvim ~/.config/nvim/init.vim
+: 1575137469:0;nvim .vimrc
+: 1575137509:0;nvim .tmux.conf
+: 1575138236:0;tmux
+: 1575138291:0;nvim .tmux.conf
+: 1575138359:0;tmux
+: 1575138375:0;nvim .tmux.conf
+: 1575138391:0;tmux
+: 1575138447:0;nvim .tmux.conf
+: 1575138583:0;tmux source ~/.tmux.conf
+: 1575138587:0;tmux
+: 1575138641:0;nvim .tmux.conf
+: 1575138718:0;tmux
+: 1575138768:0;nvim .tmux.conf
+: 1575138921:0;dnfs urlview
+: 1575138929:0;dnf search urlview
+: 1575139216:0;sudo dnf install -y urlview
+: 1575139253:0;cd Projects
+: 1575139255:0;cd
+: 1575139259:0;cd Apps
+: 1575139265:0;git clone https://github.com/facebook/PathPicker.git
+: 1575139282:0;cd PathPicker
+: 1575139283:0;ls
+: 1575139337:0;./fpp
+: 1575139372:0;$(pwd)
+: 1575139378:0;echo $(pwd)
+: 1575139406:0;ln -s "$(pwd)/fpp" /usr/local/bin/fpp
+: 1575139414:0;sudo ln -s "$(pwd)/fpp" /usr/local/bin/fpp
+: 1575139439:0;fpp --help
+: 1575139476:0;cd
+: 1575139485:0;nvim .tmux.conf
+: 1575139886:0;tmux source-file ~/.tmux.conf
+: 1575139919:0;nvim .tmux.conf
+: 1575139966:0;sudo dnf update
+: 1575139981:0;sudo dnf update -y
+: 1575143365:0;ls .local/share/nvim/site/autoload
+: 1575143391:0;ls .config/nvim/
+: 1575143394:0;ls .config/nvim/plugged
+: 1575143420:0;cd .config/nvim
+: 1575143421:0;ls
+: 1575143425:0;./init.vim
+: 1575143434:0;ls
+: 1575143438:0;nvim init.vim
+: 1575143451:0;ls -al
+: 1575143459:0;cd
+: 1575143467:0;ls .vimrc
+: 1575143472:0;cat .vimrc
+: 1575143477:0;rm .vimrc
+: 1575143496:0;wget https://raw.githubusercontent.com/aeolyus/dotfiles/master/nvim/.config/nvim/init.vim
+: 1575143507:0;mv init.vim .vimrc
+: 1575143512:0;nvim
+: 1575143520:0;vim
+: 1575144157:0;nvim
+: 1575144330:0;nvim --help
+: 1575144360:0;nvim
+: 1575144408:0;vimx
+: 1575144445:0;vimtutor
+: 1575195044:0;cat /etc/profile
+: 1575195091:0;cat .profile
+: 1575195101:0;nvim .profile
+: 1575195461:0;nvim .aliases
+: 1575195813:0;alias
+: 1575196025:0;cat ./poster11_6_1165.ansi.txt
+: 1575196098:0;cat ./andiro.txt
+: 1575196165:0;cat ./andiro-40.txt
+: 1575196222:0;cat ./andiro-120.txt
+: 1575196734:0;cat ./andiro-bash.ansi.txt
+: 1575196809:0;cat Pictures/andiro-bash.txt
+: 1575196865:0;cat Pictures/andiro-bash2.txt
+: 1575196875:0;cat ./andiro-bash.ansi.txt
+: 1575196993:0;cat ./andiro-120.txt
+: 1575197042:0;cat ./andiro-bash.bg.txt
+: 1575197046:0;cat ./andiro-120.txt
+: 1575197127:0;cat ./andiro-ansi.txt
+: 1575197409:0;cat ./andiro-io.ansi.txt
+: 1575197449:0;cat ./andiro-120.txt
+: 1575197454:0;cat ./andiro-40.txt
+: 1575197460:0;cat ./andiro-ansi.txt
+: 1575197464:0;cat ./andiro-bash.ansi.txt
+: 1575197481:0;cat ./andiro-bash.bg.txt
+: 1575197488:0;cat ./andiro-bash.ansi.txt
+: 1575197492:0;cat ./andiro-bash.bg.txt
+: 1575197498:0;cat ./andiro-ansi.txt
+: 1575197522:0;cat ./andiro-120.txt
+: 1575197528:0;cat ./andiro-io.ansi.txt
+: 1575197530:0;cat ./andiro-120.txt
+: 1575197539:0;cat ./andiro-io.ansi.txt
+: 1575197543:0;cat ./andiro-ansi.txt
+: 1575197895:0;gedit art.sh
+: 1575198291:0;./art.sh
+: 1575198294:0;sh ./art.sh
+: 1575198517:0;./art.sh
+: 1575198521:0;sh ./art.sh
+: 1575198658:0;gedit ./andiro-120.txt
+: 1575198670:0;gedit ./andiro-40.txt
+: 1575198685:0;cat ./andiro-40.txt
+: 1575198690:0;cat ./andiro-120.txt
+: 1575198695:0;nvim ./andiro-120.txt
+: 1575198710:0;gedit ./andiro-120.txt
+: 1575198771:0;cp ./andiro-120.txt ./andiro-banner.sh
+: 1575198780:0;gedit ./andiro-banner.sh
+: 1575198944:0;codium ./andiro-banner.sh
+: 1575199297:0;sh ./andiro-banner.sh
+: 1575199364:0;nvim ./andiro-banner.sh
+: 1575199385:0;dnfu
+: 1575199396:0;sudo dnf update -y
+: 1575199824:0;wget https://people.sc.fsu.edu/\~jburkardt/data/csv/airtravel.csv
+: 1575199841:0;cat airtravel.csv
+: 1575199858:0;cat airtravel.csv | column -t -s, | less -S
+: 1575199925:0;cat airtravel.csv | sed 's/,/ ,/g' | column -t -s, | less -S
+: 1575200101:0;cat airtravel.csv | perl -pe 's/((?<=,)|(?<=^)),/ ,/g;' | column -t -s, | less -S
+: 1575200156:0;cat airtravel.csv | sed 's/,/ ,/g' | column -t -s, | less -F -S -X -K
+: 1575200176:0;cat airtravel.csv | perl -pe 's/((?<=,)|(?<=^)),/ ,/g;' | column -t -s, | less -F -S -X -K
+: 1575200184:0;time cat airtravel.csv | perl -pe 's/((?<=,)|(?<=^)),/ ,/g;' | column -t -s, | less -F -S -X -K
+: 1575200211:0;cat airtravel.csv | perl -pe 's/((?<=,)|(?<=^)),/ ,/g;' | column -t -s, | less -F -S -X -K
+: 1575200268:0;function cat_csv {\
+perl -pe 's/((?<=,)|(?<=^)),/ ,/g;' "$@" | column -t -s, | less  -F -S -X -K\
+}
+: 1575200276:0;cat_csv airtravel.csv
+: 1575200334:0;csv
+: 1575200352:0;nvim csv.sh
+: 1575200515:0;alias csv='~/csv.sh'
+: 1575200519:0;csv airtravel.csv
+: 1575200527:0;chmod +x csv.sh
+: 1575200529:0;csv airtravel.csv
+: 1575200540:0;nvim csv.sh
+: 1575200551:0;csv airtravel.csv
+: 1575200571:0;nvim csv.sh
+: 1575200765:0;./csv.sh
+: 1575200776:0;pcsv airtravel.csv 
+: 1575200782:0;./csv.sh
+: 1575200790:0;nvim csv.sh
+: 1575200853:0;hash
+: 1575200856:0;nvim csv.sh
+: 1575200930:0;./csv.sh
+: 1575200934:0;pcsv airtravel.csv
+: 1575200948:0;nvim csv.sh
+: 1575201050:0;./csv.sh
+: 1575201057:0;nvim csv.sh
+: 1575201095:0;./csv.sh
+: 1575201101:0;ptsv airtravel.csv
+: 1575201109:0;pcsv airtravel.csv
+: 1575201120:0;./csv.sh airtravel.csv
+: 1575201134:0;nvim csv.sh
+: 1575201258:0;./csv.sh airtravel.csv
+: 1575201267:0;file airtravel.csv
+: 1575201281:0;nvim csv.sh
+: 1575201305:0;./csv.sh airtravel.csv
+: 1575201323:0;nvim csv.sh
+: 1575201406:0;file -ib airtravel.csv
+: 1575201414:0;help file
+: 1575201419:0;man file
+: 1575201453:0;file --extension airtravel.csv
+: 1575201522:0;mv ./csv.sh .dotfiles
+: 1575201526:0;cd .dotfiles
+: 1575201548:0;touch tsv.sh
+: 1575201557:0;nvim csv.sh tsv.sh
+: 1575201845:0;mkdir .scripts
+: 1575201857:0;mv *.sh .scripts
+: 1575201861:0;cd .scripts
+: 1575201863:0;ls
+: 1575201876:0;chmod +x tsv.sh
+: 1575201883:0;cd ..
+: 1575201887:0;ls
+: 1575201890:0;ls -a
+: 1575201899:0;rm *.orig
+: 1575201915:0;rm .alacritty.yml.orig
+: 1575202244:0;cd .scripts
+: 1575202250:0;wget https://raw.githubusercontent.com/moughamir/Bash-Snippets/master/qrify/qrify
+: 1575202258:0;chmod +x qrify
+: 1575202274:0;./qrify https://omnizya.com
+: 1575202370:0;wget https://raw.githubusercontent.com/moughamir/Bash-Snippets/master/ytview/ytview
+: 1575202379:0;chmod +x ytview
+: 1575202383:0;vlc --help
+: 1575202417:0;cvlc --help
+: 1575202543:0;nvim ytview
+: 1575202636:0;./ytview -s Bash
+: 1575202667:0;./ytview -H
+: 1575202684:0;nvim ytview
+: 1575202903:0;cvlc --help0
+: 1575202905:0;cvlc --help
+: 1575202979:0;cvlc -H
+: 1575202989:0;cvlc -H | less
+: 1575203211:0;./ytview -s linux
+: 1575203233:0;nvim ytview
+: 1575203318:0;./ytview -s linux
+: 1575203472:0;nvim ytview
+: 1575203655:0;./ytview -s linux
+: 1575203717:0;nvim ytview
+: 1575203990:0;./ytview -s linux
+: 1575204036:0;nvim ytview
+: 1575204104:0;gedit ytview
+: 1575204147:0;cvlc --video-on-top --qt-minimal-view -v 2 --width 400 --height 300 --autoscale --canvas-width 400 --canvas-height 300 autocrop true Videos/Screencast/Peek\ 2019-11-16\ 01-31.webm
+: 1575204181:0;cvlc --video-on-top --qt-minimal-view -v 2 --width 400 --height 300 --autoscale --canvas-width 400 --canvas-height 300 autocrop true Videos/Courses/
+: 1575204281:0;cvlc --video-on-top --qt-minimal-view  --width=400 --height=300 --autoscale --canvas-width=400 --canvas-height=300 autocrop=true Videos/Courses/Udemy\ -\ Blog\ for\ a\ Living\ Complete\ Blogging\ Training\ \[2019\ Update\]/1.\ Level\ 1/3.\ Fix\ this\ Common\ Problem\ \).mp4
+: 1575204396:0;cvlc --video-on-top --qt-minimal-view  --width=400 --height=300 --autoscale --canvas-width=400 --canvas-height=300 --video-x=50 --video-y=50 --no-autoscale Videos/Courses/Udemy\ -\ Blog\ for\ a\ Living\ Complete\ Blogging\ Training\ \[2019\ Update\]/1.\ Level\ 1/3.\ Fix\ this\ Common\ Problem\ \).mp4
+: 1575204629:0;cvlc --video-on-top --qt-minimal-view  --width=400 --height=300 --autoscale --canvas-width=400 --canvas-height=300 --video-x=1050 --video-y=750 --no-qt-video-autoresize  Videos/Courses/Udemy\ -\ Blog\ for\ a\ Living\ Complete\ Blogging\ Training\ \[2019\ Update\]/1.\ Level\ 1/3.\ Fix\ this\ Common\ Problem\ \).mp4
+: 1575204885:0;cvlc --video-on-top --qt-minimal-view  --width=400 --height=300 --no-autoscale --no-video-deco --align=10 --canvas-width=400 --canvas-height=300 --video-x=1050 --video-y=750 --no-qt-video-autoresize -qt-name-in-title Videos/Courses/Udemy\ -\ Blog\ for\ a\ Living\ Complete\ Blogging\ Training\ \[2019\ Update\]/1.\ Level\ 1/3.\ Fix\ this\ Common\ Problem\ \).mp4
+: 1575204974:0;cvlc --video-on-top --qt-minimal-view  --width=400 --height=300 --align=10 --canvas-width=400 --canvas-height=300 --video-x=1050 --video-y=750 --no-qt-video-autoresize -qt-name-in-title Videos/Courses/Udemy\ -\ Blog\ for\ a\ Living\ Complete\ Blogging\ Training\ \[2019\ Update\]/1.\ Level\ 1/3.\ Fix\ this\ Common\ Problem\ \).mp4
+: 1575204995:0;cvlc --video-on-top --qt-minimal-view  --width=400 --height=300 --align=10 --canvas-width=400 --canvas-height=300 --video-x=1050 --video-y=750  Videos/Courses/Udemy\ -\ Blog\ for\ a\ Living\ Complete\ Blogging\ Training\ \[2019\ Update\]/1.\ Level\ 1/3.\ Fix\ this\ Common\ Problem\ \).mp4
+: 1575205052:0;cvlc --video-on-top --qt-minimal-view  --width=400 --height=300 --align=10 --canvas-width=400 --canvas-height=300 --no-autoscale  Videos/Courses/Udemy\ -\ Blog\ for\ a\ Living\ Complete\ Blogging\ Training\ \[2019\ Update\]/1.\ Level\ 1/3.\ Fix\ this\ Common\ Problem\ \).mp4
+: 1575205098:0;cvlc --video-on-top --qt-minimal-view  --width=400 --height=300 --align=9 --canvas-width=400 --canvas-height=300   Videos/Courses/Udemy\ -\ Blog\ for\ a\ Living\ Complete\ Blogging\ Training\ \[2019\ Update\]/1.\ Level\ 1/3.\ Fix\ this\ Common\ Problem\ \).mp4
+: 1575205132:0;cvlc --video-on-top --qt-minimal-view  --width=400 --height=300 --align=9 --canvas-width=400 --canvas-height=300   Videos/Courses/Udemy\ -\ Blog\ for\ a\ Living\ Complete\ Blogging\ Training\ \[2019\ Update\]/1.\ Level\ 1/3.\ Fix\ this\ Common\ Problem\ \).mp4 -v 2
+: 1575205184:0;vlc --video-on-top --qt-minimal-view  --width=400 --height=300 --align=9 --canvas-width=400 --canvas-height=300   Videos/Courses/Udemy\ -\ Blog\ for\ a\ Living\ Complete\ Blogging\ Training\ \[2019\ Update\]/1.\ Level\ 1/3.\ Fix\ this\ Common\ Problem\ \).mp4 -v 2
+: 1575205375:0;vlc --video-on-top  --width=400 --height=300 --align=10   Videos/Courses/Udemy\ -\ Blog\ for\ a\ Living\ Complete\ Blogging\ Training\ \[2019\ Update\]/1.\ Level\ 1/3.\ Fix\ this\ Common\ Problem\ \).mp4
+: 1575205511:0;cvlc --video-on-top  --width=400 --height=300 --align=10   Videos/Courses/Udemy\ -\ Blog\ for\ a\ Living\ Complete\ Blogging\ Training\ \[2019\ Update\]/1.\ Level\ 1/3.\ Fix\ this\ Common\ Problem\ \).mp4
+: 1575205528:0;gedit ytview
+: 1575205624:0;./ytview -s linux
+: 1575205828:0;weather
+: 1575205855:0;wget https://raw.githubusercontent.com/moughamir/Bash-Snippets/master/weather/weather
+: 1575205865:0;chmod +x ./weather
+: 1575205869:0;./weather -h
+: 1575205876:0;./weather Moon
+: 1575205913:0;./weather m Moon
+: 1575205923:0;./weather m Bouskoura
+: 1575205950:0;./weather Bouskoura m
+: 1575205955:0;./weather -h
+: 1575206055:0;gedit weather
+: 1575206096:0;wget en.wttr.in/Bouskoura
+: 1575206133:0;cat Bouskoura
+: 1575206162:0;wget en.wttr.in/Bouskoura | cat -
+: 1575206171:0;wget en.wttr.in/Bouskoura | cat - -
+: 1575206233:0;curl en.wttr.in/Bouskoura
+: 1575206302:0;curl en.wttr.in/Bouskoura?format=3
+: 1575206323:0;curl http://en.wttr.in/Bouskoura?format=3
+: 1575206335:0;curl http://en.wttr.in/?format=3
+: 1575206349:0;curl wttr.in/Nuremberg?format=3
+: 1575206358:0;curl "wttr.in/Nuremberg?format=3"
+: 1575206366:0;curl "wttr.in/Bouskoura?format=3"
+: 1575206374:0;curl "en.wttr.in/Bouskoura?format=3"
+: 1575206401:0;curl "en.wttr.in/{Bouskoura,Casablanca,Paris}?format=3"
+: 1575206420:0;curl "wttr.in/{Bouskoura,Casablanca}?format=3"
+: 1575206441:0;curl "wttr.in/?format=3"
+: 1575206460:0;curl "wttr.in/{Bouskoura,Morocco}?format=3"
+: 1575206505:0;curl "wttr.in/{Bouskoura}?format=%l:+%c+%C"
+: 1575206558:0;curl "wttr.in/{Bouskoura}?format=%l:+%c+%C+%t+%h+%w+%m+%M+%p+%o+%P"
+: 1575206590:0;curl "ar.wttr.in/{Bouskoura}?format=%l:+%c+%C+%t+%h+%w+%m+%M+%p+%o+%P"
+: 1575206607:0;curl "fr.wttr.in/{Bouskoura}?format=%l:+%c+%C+%t+%h+%w+%m+%M+%p+%o+%P"
+: 1575206736:0;curl "ar.wttr.in/{Ø¨Ùƒ¨Ø³Ùƒ£Ùƒ¨Ø±Ø©}?format=%l:+%c+%C+%t+%h+%w+%m+%M+%p+%o+%P"
+: 1575206784:0;curl -s "ar.wttr.in/{Ø¨Ùƒ¨Ø³Ùƒ£Ùƒ¨Ø±Ø©}?format=%l:+%c+%C+%t+%h+%w+%m+%M+%p+%o+%P"
+: 1575206793:0;curl -s "en.wttr.in/{Ø¨Ùƒ¨Ø³Ùƒ£Ùƒ¨Ø±Ø©}?format=%l:+%c+%C+%t+%h+%w+%m+%M+%p+%o+%P"
+: 1575206809:0;curl -s "en.wttr.in/{Ø¨Ùƒ¨Ø³Ùƒ£Ùƒ¨Ø±Ø©}?format=%l:+%c+%C+%t+%h+%w+%m+%M+%p+%o+%P&period=60"
+: 1575206835:0;curl -s "v2.wttr.in/{Ø¨Ùƒ¨Ø³Ùƒ£Ùƒ¨Ø±Ø©}?format=%l:+%c+%C+%t+%h+%w+%m+%M+%p+%o+%P&period=60"
+: 1575206856:0;curl -s "v2.wttr.in/{Ø¨Ùƒ¨Ø³Ùƒ£Ùƒ¨Ø±Ø©}"
+: 1575206938:0;curl -s "en.wttr.in/{Ø¨Ùƒ¨Ø³Ùƒ£Ùƒ¨Ø±Ø©}?format=%l:+%c+%C+%t+%h+%w+%m+%M+%p+%o+%P&period=60"
+: 1575207264:0;./weather 
+: 1575207275:0;./weather Bouskoura
+: 1575207352:0;ls
+: 1575207354:0;cd ..
+: 1575207356:0;ls
+: 1575207358:0;ls -a
+: 1575207375:0;cp ../.vimrc
+: 1575207376:0;cp ../.vimrc 
+: 1575207380:0;cp ../.vimrc ./
+: 1575207388:0;gedit .vimrc
+: 1575207399:0;vim .vimrc
+: 1575207941:0;cp .vimrc ../.vimrc
+: 1575207943:0;vim
+: 1575207964:0;nvim
+: 1575208004:0;nvim .vimrc
+: 1575208182:0;cp .vimrc ../.vimrc
+: 1575208185:0;nvim
+: 1575208225:0;nvim .vimrc
+: 1575208247:0;cp .vimrc ../.vimrc
+: 1575208249:0;nvim .vimrc
+: 1575208294:0;cp .vimrc ../.vimrc
+: 1575208296:0;nvim .vimrc
+: 1575208487:0;cp .vimrc ../.vimrc
+: 1575208490:0;nvim
+: 1575208799:0;nvim .vimrc
+: 1575208849:0;cp .vimrc ../.vimrc
+: 1575208850:0;nvim .vimrc
+: 1575208940:0;cp .vimrc ../.vimrc
+: 1575208941:0;nvim .vimrc
+: 1575208970:0;cp .vimrc ../.vimrc
+: 1575208972:0;nvim .vimrc
+: 1575209188:0;cp .vimrc ../.vimrc
+: 1575209190:0;nvim .vimrc
+: 1575209258:0;cp ../.tmux.conf ./
+: 1575209263:0;nvim .tmux.conf
+: 1575209450:0;cp .tmux.conf ../
+: 1575209453:0;tmux
+: 1575209504:0;cat ../.tmux.conf
+: 1575209512:0;tmux
+: 1575209558:0;nvim .tmux.conf
+: 1575209707:0;cp .tmux.conf ../.tmux.conf
+: 1575209710:0;tmux
+: 1575209742:0;nvim .tmux.conf
+: 1575209895:0;cp .tmux.conf ../.tmux.conf
+: 1575209899:0;tmux
+: 1575209922:0;cp .vimrc ../.vimrc
+: 1575209926:0;nvim .tmux.conf
+: 1575210046:0;cp .tmux.conf ../.tmux.conf
+: 1575210063:0;nvim .tmux.conf
+: 1575210136:0;cp ../.tmux.conf ./.tmux.conf
+: 1575210138:0;nvim .tmux.conf
+: 1575210652:0;cp .tmux.conf ../.tmux.conf
+: 1575210658:0;tmux
+: 1575210666:0;nvim .tmux.conf
+: 1575210791:0;tmux
+: 1575210817:0;cp .tmux.conf ../.tmux.conf
+: 1575210819:0;tmux
+: 1575210826:0;:q
+: 1575210832:0;tmux
+: 1575210942:0;cd
+: 1575210954:0;go get github.com/cjbassi/gotop
+: 1575210980:0;gotop
+: 1575210987:0;tmux
+: 1575210991:0;gotop
+: 1575210995:0;cd
+: 1575211011:0;go/bin/gotop
+: 1575211121:0;nvim .tmux.conf
+: 1575211164:0;cd .dotfiles
+: 1575211178:0;cp .tmux.conf ../.tmux.conf
+: 1575211181:0;tmux
+: 1575211280:0;nvim .tmux.conf
+: 1575211430:0;cp .tmux.conf ../.tmux.conf
+: 1575211436:0;tmux
+: 1575211449:0;nvim .tmux.conf
+: 1575211476:0;cp .tmux.conf ../.tmux.conf
+: 1575211479:0;tmux
+: 1575211492:0;nvim .tmux.conf
+: 1575211694:0;cp .tmux.conf ../.tmux.conf
+: 1575211696:0;tmux
+: 1575211715:0;nvim .tmux.conf
+: 1575211754:0;cp .tmux.conf ../.tmux.conf
+: 1575211756:0;tmux
+: 1575211806:0;nvim .tmux.conf
+: 1575211845:0;cp .tmux.conf ../.tmux.conf
+: 1575211847:0;tmux
+: 1575211858:0;nvim .tmux.conf
+: 1575211979:0;tmux-cpu
+: 1575211983:0;cp .tmux.conf ../.tmux.conf
+: 1575211986:0;tmux
+: 1575211998:0;nvim .tmux.conf
+: 1575212025:0;date -u
+: 1575212042:0;date -u | awk '{print $4}'
+: 1575212051:0;date -u | awk '{print $5}'
+: 1575212091:0;cp .tmux.conf ../.tmux.conf
+: 1575212092:0;tmux
+: 1575212123:0;nvim .tmux.conf
+: 1575212141:0;cp .tmux.conf ../.tmux.conf
+: 1575212144:0;tmux
+: 1575212228:0;nvim .tmux.conf
+: 1575212259:0;cp .tmux.conf ../.tmux.conf
+: 1575212261:0;tmux
+: 1575212283:0;cp .tmux.conf ../.tmux.conf
+: 1575212287:0;nvim .tmux.conf
+: 1575212309:0;cp .tmux.conf ../.tmux.conf
+: 1575212311:0;tmux
+: 1575212325:0;nvim .tmux.conf
+: 1575212336:0;cp .tmux.conf ../.tmux.conf
+: 1575212338:0;tmux
+: 1575212432:0;nvim .
+: 1575212452:0;gedit .vimrc
+: 1575212822:0;cp .vimrc ../.vimrc
+: 1575212826:0;nvim .
+: 1575213002:0;cp ../.zshrc ./
+: 1575213006:0;nvim .zshrc
+: 1575213050:0;git clone --depth=1 https://github.com/romkatv/powerlevel10k.git ~/powerlevel10k
+: 1575213085:0;rm -rf ~/powerlevel10k
+: 1575213089:0;git clone --depth=1 https://github.com/romkatv/powerlevel10k.git $ZSH_CUSTOM/themes/powerlevel10k
+: 1575213100:0;rm -rf $ZSH_CUSTOM/themes/powerlevel10k
+: 1575213103:0;git clone --depth=1 https://github.com/romkatv/powerlevel10k.git $ZSH_CUSTOM/themes/powerlevel10k
+: 1575213130:0;nvim .zshrc
+: 1575213268:0;cp .zshrc ../.zshrc
+: 1575213425:0;cd .dotfiles
+: 1575213427:0;ls
+: 1575213431:0;ls -al
+: 1575213492:0;cp ../.zshrc ./
+: 1575213503:0;cp ../.p10k.zsh ./
+: 1575213508:0;nvim .p10k.zsh
+: 1575213705:0;cp .p10k.zsh ../.p10k.zsh
+: 1575213741:0;cd .dotfiles
+: 1575213746:0;nvim .p10k.zsh
+: 1575213917:0;cp .p10k.zsh ../
+: 1575213959:0;tmux
+: 1575213965:0;pj
+: 1575213980:0;nvim .dotfiles/.zshrc
+: 1575214012:0;cp .dotfiles/.zshrc ./
+: 1575214018:0;source .zshrc
+: 1575214020:0;pj
+: 1575214030:0;cd Projects
+: 1575214094:0;cd
+: 1575214110:0;nvim .dotfiles/.vimrc
+: 1575214567:0;cp .dotfiles/.vimrc ./
+: 1575214571:0;nvim
+: 1575214681:0;cp .dotfiles/.* ./
+: 1575214691:0;cat .bashrc
+: 1575214699:0;ls -la
+: 1575214714:0;ls
+: 1575214718:0;ls -a
+: 1575214725:0;cat .gitconfig
+: 1575214729:0;rm .gitconfig
+: 1575214734:0;rm .bashrc
+: 1575214736:0;ls -a
+: 1575214749:0;cat .yarnrc
+: 1575214766:0;mv .dotfiles/.* ./
+: 1575214799:0;cd .dotfiles
+: 1575214803:0;wget https://raw.githubusercontent.com/2KAbhishek/Dotfiles/master/.gitconfig
+: 1575214813:0;nvim .gitconfig
+: 1575214965:0;cp .* ../
+: 1575215048:0;cd ..
+: 1575215059:0;cp .dotfiles .dotfiles.backup
+: 1575215073:0;mkdir .dotfiles.backup
+: 1575215086:0;cp .dotfiles/* .dotfiles.backup
+: 1575215098:0;cp .dotfiles/.* .dotfiles.backup/
+: 1575215105:0;ls -al .dotfiles.backup
+: 1575215117:0;ls .dotfiles
+: 1575215120:0;ls .dotfiles -al
+: 1575215132:0;cat .zshrc
+: 1575215135:0;:q
+: 1575215150:0;cp .vimrc .dotfiles/
+: 1575215156:0;cp .zshrc .dotfiles/
+: 1575215163:0;cp .tmux.conf .dotfiles/
+: 1575215170:0;cp .scripts .dotfiles/
+: 1575215173:0;cp .scripts .dotfiles/ -r
+: 1575215176:0;ls -a
+: 1575215195:0;cp .p10k.zsh .dotfiles
+: 1575215207:0;cp .bashrc .dotfiles
+: 1575215222:0;cp .bash_profile .dotfiles
+: 1575215235:0;cp *.sh .dotfiles
+: 1575215256:0;ls -al | less
+: 1575215267:0;cp .alacritty.yml .dotfiles
+: 1575215273:0;cp .aliases .dotfiles
+: 1575215281:0;ls -al | more
+: 1575215301:0;cp .editorconfig .dotfiles
+: 1575215313:0;ls -al | more
+: 1575215325:0;cat .esd_auth
+: 1575215330:0;cat .gnupg
+: 1575215345:0;cat .calfrc
+: 1575215362:0;cat .fzf.bash
+: 1575215365:0;cat .fzf.zsh
+: 1575215384:0;cp .fzf.* .dotfiles
+: 1575215399:0;cp .gitconfig .dotfiles
+: 1575215409:0;cp .zsh_history .dotfiles
